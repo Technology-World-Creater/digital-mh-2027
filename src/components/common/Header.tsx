@@ -36,7 +36,7 @@ const Header = ({
             alt="Line"
             width={380}
             height={500}
-            className="-mt-8 z-10 hidden md:block"
+            className="-mt-8 z-10 hidden lg:block"
           />
           <p className="text-lg leading-relaxed mt-5">{description}</p>
         </div>

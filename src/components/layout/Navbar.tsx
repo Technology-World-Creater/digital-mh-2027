@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-8">
             <Link
               href="#"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
@@ -78,14 +78,17 @@ const Navbar = () => {
           </div>
 
           {/* Contact Us Button */}
-          <button className="hidden md:flex bg-[#03CF65] text-white px-6 py-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 items-center space-x-2">
+          <button className="hidden lg:flex bg-[#03CF65] text-white px-6 py-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 items-center space-x-2">
             <span>Contact Us</span>
             <i className="fas fa-arrow-right"></i>
           </button>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button onClick={toggleMobileMenu} className="text-gray-700 focus:outline-none">
+          <div className="lg:hidden">
+            <button
+              onClick={toggleMobileMenu}
+              className="text-gray-700 focus:outline-none"
+            >
               <svg
                 className="w-6 h-6"
                 fill="none"
@@ -107,11 +110,36 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white py-2">
-            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Who We Are</Link>
-            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Initiatives</Link>
-            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Chapters</Link>
-            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Get Involved</Link>
-            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Resources</Link>
+            <Link
+              href="#"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+            >
+              Who We Are
+            </Link>
+            <Link
+              href="#"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+            >
+              Initiatives
+            </Link>
+            <Link
+              href="#"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+            >
+              Chapters
+            </Link>
+            <Link
+              href="#"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+            >
+              Get Involved
+            </Link>
+            <Link
+              href="#"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+            >
+              Resources
+            </Link>
             <button className="w-full text-left bg-[#03CF65] text-white px-4 py-2 mt-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 flex items-center justify-center space-x-2">
               <span>Contact Us</span>
               <i className="fas fa-arrow-right"></i>
