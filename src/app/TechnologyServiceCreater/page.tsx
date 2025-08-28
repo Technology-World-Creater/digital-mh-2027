@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/common/Header";
 import MissionVision from "./components/MissionVision";
+import DigitalTransformation from "./components/DigitalTransformation";
 
 const page = () => {
   const mission = {
@@ -36,6 +37,7 @@ const page = () => {
         smart service systems for businesses, institutions, and governments."
       />
       <MissionVision mission={mission} vision={vision} />
+      <DigitalTransformation />
     </>
   );
 };
