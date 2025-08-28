@@ -2,11 +2,13 @@ import Image from "next/image";
 
 const Header = ({
   title,
+  line,
   bgImage,
   logoImage,
   description,
 }: {
   title: string;
+  line: string;
   bgImage: string;
   logoImage: string;
   description: string;
@@ -25,11 +27,18 @@ const Header = ({
       </div>
       <div className="relative z-10 container mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between">
         <div className="text-white text-left mb-10 md:mb-0 md:w-1/2">
-          <h1 className="text-4xl md:text-4xl font-bold mb-4">
+          <h1 className="relative text-4xl md:text-4xl font-bold mb-4 z-50">
             What is <br />
             <span className="text-white-800">{title} ?</span>
           </h1>
-          <p className="text-lg leading-relaxed">{description}</p>
+          <Image
+            src={line}
+            alt="Line"
+            width={380}
+            height={500}
+            className="-mt-8 z-10 hidden md:block"
+          />
+          <p className="text-lg leading-relaxed mt-5">{description}</p>
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="bg-white p-6 rounded-lg shadow-lg flex items-center space-x-4">
