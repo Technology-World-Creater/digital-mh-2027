@@ -4,9 +4,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-white py-10 border-t border-gray-200">
-      <div className="container mx-auto">
+      <div>
         {/* Top Section: Growth and Funding Opportunities */}
-        <div className="relative rounded-lg py-16 mb-10 md:-mx-6 overflow-hidden">
+        <div className="relative rounded-lg py-16 mb-10 overflow-hidden">
           <div className="absolute top-1/2 md:top-2/5 lg:top-0 left-0 w-full h-full">
             {/* Placeholder for the green wave/blob background */}
             <Image
