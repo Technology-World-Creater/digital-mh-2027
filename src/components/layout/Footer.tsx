@@ -4,28 +4,26 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-white py-10 border-t border-gray-200">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         {/* Top Section: Growth and Funding Opportunities */}
-        <div className="relative bg-gradient-to-r from-green-100 to-green-50 rounded-lg p-8 mb-10 overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-full opacity-20">
+        <div className="relative rounded-lg py-16 mb-10 overflow-hidden">
+          <div className="absolute top-1/2 md:top-2/5 lg:top-0 left-0 w-full h-full">
             {/* Placeholder for the green wave/blob background */}
-            <svg
-              className="w-full h-full"
-              viewBox="0 0 1000 200"
-              preserveAspectRatio="none"
-            >
-              <path
-                fill="#03CF65"
-                d="M0,100 C150,200 350,0 500,100 C650,200 850,0 1000,100 L1000,200 L0,200 Z"
-              />
-            </svg>
+            <Image
+              src="/Fline.png"
+              alt="Footer Background"
+              width={1000}
+              height={200}
+              objectFit="contain"
+              className="w-full text-[#03CF65]"
+            />
           </div>
-          <div className="relative z-10 text-center py-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Discover growth and funding{" "}
-              <span className="text-[#03CF65]">opportunities</span>
+          <div className="relative mx-auto z-10 text-center py-8 bg-white rounded-2xl w-80  md:w-[40em] h-60 flex items-center justify-center flex-col shadow-2xl mt-3">
+            <h2 className="text-3xl md:text-4xl font-light text-[#03CF65] mb-4">
+              Discover growth and funding {""}
+              <span className="text-[#04984c] font-bold">opportunities</span>
             </h2>
-            <button className="border border-[#03CF65] text-[#03CF65] px-8 py-3 rounded-full hover:bg-[#03CF65] hover:text-white transition duration-300 flex items-center justify-center mx-auto space-x-2">
+            <button className="border border-[#03CF65] text-[#03CF65] px-8 py-3 rounded-xl hover:bg-[#03CF65] hover:text-white transition duration-300 flex items-center justify-center mx-auto space-x-2">
               <span>REGISTER NOW</span>
               <i className="fas fa-arrow-right"></i>
             </button>
@@ -33,9 +31,9 @@ const Footer = () => {
         </div>
 
         {/* Main Footer Content */}
-        <div className="flex gap-40 max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-24 max-w-7xl mx-auto px-4">
           {/* Left Section: Copyright and Logo */}
-          <div className="col-span-2">
+          <div className="w-full md:w-auto text-center md:text-left">
             <p className="text-gray-600 text-sm mb-4">
               © 2025 Technology World Creater Private Limited
             </p>
@@ -50,7 +48,7 @@ const Footer = () => {
                 height={250}
               />
             </div>
-            <div className="flex space-x-10 mx-auto">
+            <div className="flex justify-center md:justify-start space-x-10 mx-auto md:mx-0">
               <Link
                 href="#"
                 className="text-2xl text-gray-600 hover:text-[#03CF65]"
@@ -78,7 +76,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex gap-40">
+          <div className="flex md:flex-row gap-24 flex-wrap md:gap-28 w-full md:w-auto">
             {/* Platform Links */}
             <div>
               <h3 className="font-bold text-gray-800 mb-3">Platform</h3>
@@ -117,7 +115,7 @@ const Footer = () => {
             </div>
 
             {/* Resources Links */}
-            <div>
+            <div className="pl-6 lg:pl-0">
               <h3 className="font-bold text-gray-800 mb-3">Resources</h3>
               <ul className="space-y-2 text-sm">
                 <li>
