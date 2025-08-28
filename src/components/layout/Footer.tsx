@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-5 md:gap-24 max-w-7xl mx-auto px-4">
           {/* Left Section: Copyright and Logo */}
           <div className="w-full md:w-auto text-center md:text-left">
-            <p className="text-gray-600 text-sm mb-4">
+            <p className="text-gray-600 text-sm text-left mb-4">
               © 2025 Technology World Creater Private Limited
             </p>
             <p className="text-gray-600 text-sm mb-4 flex items-center">
