@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-white py-10 border-t border-gray-200">
       <div className="container mx-auto">
         {/* Top Section: Growth and Funding Opportunities */}
-        <div className="relative rounded-lg py-16 mb-10 overflow-hidden">
+        <div className="relative rounded-lg py-16 mb-10 md:-mx-6 overflow-hidden">
           <div className="absolute top-1/2 md:top-2/5 lg:top-0 left-0 w-full h-full">
             {/* Placeholder for the green wave/blob background */}
             <Image
@@ -14,7 +14,7 @@ const Footer = () => {
               alt="Footer Background"
               width={1000}
               height={200}
-              objectFit="contain"
+              objectFit="cover"
               className="w-full text-[#03CF65]"
             />
           </div>
