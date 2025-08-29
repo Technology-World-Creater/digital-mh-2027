@@ -3,7 +3,7 @@ import OurVision from "./components/OurVision";
 
 export default function TechnologyServiceCreater() {
   return (
-    <div className="relative min-h-screen bg-black text-white">
+    <div className="relative min-h-screen text-white">
       <HeroSection
         title="Technology Education Creater"
         line={"/heroLine.png"}
