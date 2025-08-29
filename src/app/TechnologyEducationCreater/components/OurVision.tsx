@@ -10,14 +10,14 @@ const OurVision = () => {
             Global Education System
           </span>
         </h2>
-        <p className="text-2xl leading-relaxed mb-12 text-[#5C6C68]">
+        <p className="text-xl leading-relaxed mb-12 text-[#5C6C68]">
           We believe education is the foundation of a digital economy. By
           merging innovation and inclusivity, TEC is redefining learning for the
           next decade.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-[#EFE9E2] p-8 shadow-md flex items-center justify-center">
+          <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               01
             </div>
@@ -25,7 +25,7 @@ const OurVision = () => {
               To redefine education through technology and innovation.
             </p>
           </div>
-          <div className="bg-[#EFE9E2] p-8 shadow-md flex items-center justify-center">
+          <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               02
             </div>
@@ -34,7 +34,7 @@ const OurVision = () => {
               between traditional education and future skills.
             </p>
           </div>
-          <div className="bg-[#EFE9E2] p-8 shadow-md flex items-center justify-center">
+          <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               03
             </div>

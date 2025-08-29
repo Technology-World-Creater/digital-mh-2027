@@ -9,7 +9,7 @@ const WhyTecMatters = () => {
           Why TEC Matters for{" "}
           <span className="text-green-500">Digital Maharashtra 2027 ?</span>
         </h2>
-        <p className="text-2xl leading-relaxed mb-12 text-[#5C6C68]">
+        <p className="text-xl leading-relaxed mb-12 text-[#5C6C68]">
           Education is the engine of a digital economy, and Technology Education
           Creator (TEC) is building the foundation for Maharashtra&apos;s
           future. Here&apos;s what TEC will ensure:
@@ -61,7 +61,7 @@ const WhyTecMatters = () => {
 
         <p className="text-xl font-semibold text-gray-800 leading-1 mb-8">
           And yet, nobody{" "}
-          <span className="font-light  text-[#03CF65] italic">
+          <span className="font-normal text-[#03CF65] italic">
             no one is building a future-ready education system for Bharat.
           </span>
         </p>
@@ -70,7 +70,7 @@ const WhyTecMatters = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          <div className="bg-[#EFE9E2] p-8 shadow-md flex items-center justify-center">
+          <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               01
             </div>
@@ -78,7 +78,7 @@ const WhyTecMatters = () => {
               Future-ready workforce for Maharashtra.
             </p>
           </div>
-          <div className="bg-[#EFE9E2] p-8 shadow-md flex items-center justify-center">
+          <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               02
             </div>
@@ -86,7 +86,7 @@ const WhyTecMatters = () => {
               Equal access to quality education through technology.
             </p>
           </div>
-          <div className="bg-[#EFE9E2] p-8 shadow-md flex items-center justify-center">
+          <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               03
             </div>
@@ -97,7 +97,7 @@ const WhyTecMatters = () => {
           </div>
         </div>
 
-        <div className="relative mt-20 bg-[#B1FFD7] py-12 px-4 text-left mb-12 max-w-6xl mx-auto">
+        <div className="relative mt-20 bg-[#B1FFD7] py-12 px-4 text-left mb-12 max-w-6xl">
           <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
             <h2 className="text-2xl md:text-3xl font-normal text-gray-800 mb-4 w-[80%] md:mb-0">
               Join the movement to transform Ed-Tech Sector. Be part of Digital
