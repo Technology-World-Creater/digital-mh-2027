@@ -2,6 +2,7 @@ import HeroSection from "@/components/common/HeroSection";
 import OurVision from "./components/OurVision";
 import WhyTecMatters from "./components/WhyTecMatters";
 import NationsEducationVision from "./components/NationsEducationVision";
+import ImpactByTEC from "./components/ImpactByTEC";
 
 export default function TechnologyServiceCreater() {
   return (
@@ -16,6 +17,7 @@ export default function TechnologyServiceCreater() {
       <OurVision />
       <WhyTecMatters />
       <NationsEducationVision />
+      <ImpactByTEC />
     </>
   );
 }
