@@ -1,10 +1,11 @@
 import HeroSection from "@/components/common/HeroSection";
 import OurVision from "./components/OurVision";
 import WhyTecMatters from "./components/WhyTecMatters";
+import NationsEducationVision from "./components/NationsEducationVision";
 
 export default function TechnologyServiceCreater() {
   return (
-    <div className="relative min-h-screen text-white">
+    <>
       <HeroSection
         title="Technology Education Creater"
         line={"/heroLine.png"}
@@ -14,6 +15,7 @@ export default function TechnologyServiceCreater() {
       />
       <OurVision />
       <WhyTecMatters />
-    </div>
+      <NationsEducationVision />
+    </>
   );
 }
