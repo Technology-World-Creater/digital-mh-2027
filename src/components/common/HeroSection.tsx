@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Header = ({
+const HeroSection = ({
   title,
   line,
   bgImage,
@@ -55,4 +55,4 @@ const Header = ({
   );
 };
 
-export default Header;
+export default HeroSection;

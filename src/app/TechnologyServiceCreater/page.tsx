@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/common/Header";
+import HeroSection from "../../components/common/HeroSection";
 import MissionVision from "./components/MissionVision";
 import DigitalTransformation from "./components/DigitalTransformation";
 import Empowering from "./components/Empowering";
@@ -26,7 +26,7 @@ const page = () => {
   };
   return (
     <>
-      <Header
+      <HeroSection
         title="Technology Service Creater"
         line={"/heroLine.png"}
         bgImage={"/TSCHero.jpg"}
