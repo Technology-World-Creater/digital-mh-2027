@@ -21,7 +21,7 @@ const OurVision = () => {
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               01
             </div>
-            <p className="text-base text-[#5C6C68]">
+            <p className="text-base font-semibold text-[#5C6C68]">
               To redefine education through technology and innovation.
             </p>
           </div>
@@ -29,7 +29,7 @@ const OurVision = () => {
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               02
             </div>
-            <p className="text-base text-[#5C6C68]">
+            <p className="text-base font-semibold text-[#5C6C68]">
               To create a global standard curriculum that bridges the gap
               between traditional education and future skills.
             </p>
@@ -38,7 +38,7 @@ const OurVision = () => {
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               03
             </div>
-            <p className="text-base text-[#5C6C68]">
+            <p className="text-base font-semibold text-[#5C6C68]">
               To collaborate with 10 countries to develop the world&apos;s most
               advanced education system.
             </p>
