@@ -3,19 +3,21 @@ import Image from "next/image";
 
 const WhyTecMatters = () => {
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#FEFAF5] text-gray-800">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-[#FEFAF5] text-gray-800">
+      <div className="max-w-7xl mx-auto py-16 px-4 md:px-8 lg:px-16 ">
         <h2 className="text-4xl font-bold mb-4">
           Why TEC Matters for{" "}
           <span className="text-green-500">Digital Maharashtra 2027 ?</span>
         </h2>
-        <p className="text-xl leading-relaxed mb-12 text-[#5C6C68]">
+        <p className="text-xl leading-relaxed mb-1 text-[#5C6C68]">
           Education is the engine of a digital economy, and Technology Education
           Creator (TEC) is building the foundation for Maharashtra&apos;s
           future. Here&apos;s what TEC will ensure:
         </p>
+      </div>
 
-        <div className="flex flex-col md:flex-row gap-8 mb-12 p-4 md:p-8 items-center justify-center bg-[#EFE9E2] relative overflow-hidden rounded-lg">
+      <div className=" bg-[#EFE9E2]">
+        <div className="max-w-7xl mx-auto relative overflow-hidden rounded-lg flex flex-col md:flex-row gap-8 pb-12 p-4 md:p-0 items-center justify-center">
           <div className="flex flex-col items-center text-center p-6">
             <div className="text-6xl font-semibold font- text-gray-700 mb-2 relative">
               10
@@ -54,11 +56,13 @@ const WhyTecMatters = () => {
               height={0}
               sizes="100vw"
               alt="Startup illustration"
-              className="h-80 w-full object-cover md:w-auto md:h-auto max-w-full"
+              className="h-80 w-full object-cover md:w-auto md:h-60 max-w-full"
             />
           </div>
         </div>
+      </div>
 
+      <div className="max-w-7xl mx-auto py-16 px-4 md:px-8 lg:px-16 ">
         <p className="text-xl font-semibold text-gray-800 leading-5 mb-8">
           And yet, nobody{" "}
           <span className="font-normal text-[#03CF65] italic">
@@ -97,13 +101,13 @@ const WhyTecMatters = () => {
           </div>
         </div>
 
-        <div className="relative mt-20 bg-[#B1FFD7] py-12 px-4 text-center md:text-left mb-12 max-w-6xl mx-auto rounded-lg">
-          <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
-            <h2 className="text-2xl md:text-3xl font-normal text-gray-800 mb-4 md:mb-0 text-center md:text-left">
+        <div className="relative mt-20 bg-[#B1FFD7] py-12 px-4 text-left mb-12 max-w-6xl">
+          <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+            <h2 className="text-2xl md:text-3xl font-normal text-gray-800 mb-4 w-[80%] md:mb-0">
               Join the movement to transform Ed-Tech Sector. Be part of Digital
               Maharashtra 2027.
             </h2>
-            <button className="text-lg leading-relaxed bg-green-500 hover:bg-green-600 text-white font-light py-3 px-8 rounded-lg flex items-center space-x-2 mt-4 md:mt-0">
+            <button className="flex absolute md:-right-20 right-20 bottom-2 md:bottom-2/5 text-lg leading-relaxed bg-green-500 hover:bg-green-600 text-white font-light py-3 px-8 rounded-lg items-center space-x-2">
               <span>APPLY NOW</span>
               <svg
                 xmlns="http://www.w3.org/6000/svg"
