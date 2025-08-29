@@ -5,9 +5,19 @@ const WhyTecMatters = () => {
   return (
     <section className="bg-[#FEFAF5] text-gray-800">
       <div className="max-w-7xl mx-auto py-16 px-4 md:px-8 lg:px-16 ">
-        <h2 className="text-4xl font-bold mb-4">
+        <h2 className="relative text-4xl font-bold mb-4">
           Why TEC Matters for{" "}
-          <span className="text-green-500">Digital Maharashtra 2027 ?</span>
+          <span className="text-green-500 z-50">
+            Digital Maharashtra 2027 ?
+          </span>
+          <Image
+            src={"/vector1.png"}
+            width={0}
+            height={0}
+            sizes="100vw"
+            alt=""
+            className="hidden md:block absolute right-[9.9em] top-7 z-10 w-auto h-auto"
+          />
         </h2>
         <p className="text-xl leading-relaxed mb-1 text-[#5C6C68]">
           Education is the engine of a digital economy, and Technology Education

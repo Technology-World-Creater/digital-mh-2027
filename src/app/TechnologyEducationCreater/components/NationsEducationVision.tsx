@@ -17,9 +17,19 @@ const NationsEducationVision = () => {
   return (
     <section className="py-16 bg-white text-center md:text-left">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl text-black font-bold mb-4 text-center md:text-left">
+        <h2 className="relative text-4xl text-black font-bold mb-4 text-center md:text-left">
           10 Nations,{" "}
-          <span className="text-[#22C55E]">One Global Education Vision</span>
+          <span className="text-[#22C55E] z-50">
+            One Global Education Vision
+          </span>
+          <Image
+            src={"/vector1.png"}
+            width={0}
+            height={0}
+            sizes="100vw"
+            alt=""
+            className="hidden md:block absolute right-[16em] top-7 z-10 w-auto h-auto"
+          />
         </h2>
         <p className="text-lg text-[#5C6C68] mb-12 text-center md:text-left">
           Building the world&apos;s most advanced education system together.
