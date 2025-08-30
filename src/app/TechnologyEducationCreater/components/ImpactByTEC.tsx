@@ -191,7 +191,7 @@ const ImpactByTEC: React.FC = () => {
   return (
     <section className="my-12">
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
           <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center md:text-left">
             Impact by,{" "}
             <span className="text-green-700">
@@ -205,17 +205,17 @@ const ImpactByTEC: React.FC = () => {
         </div>
       </div>
       <div className="px-4 sm:px-6 lg:px-8 bg-[#EFE9E2]">
-        <div className="flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row  max-w-7xl mx-auto">
           {/* Left Sidebar for Tabs */}
           <div className="md:w-1/4 py-6">
             <nav>
               {tabs.map((tab, index) => (
                 <button
                   key={index}
-                  className={`block w-full text-left py-3 px-4 rounded-lg mb-2 transition-colors duration-200 ${
+                  className={`block w-full text-left py-3 px-4 rounded-l-lg mb-2 transition-colors duration-200 ${
                     activeTab === index
                       ? "bg-[#FEFAF5] text-gray-700 font-semibold"
-                      : "text-gray-700 hover:bg-gray-50"
+                      : "text-gray-700 hover:bg-[#FEFAF5]"
                   }`}
                   onClick={() => setActiveTab(index)}
                 >
