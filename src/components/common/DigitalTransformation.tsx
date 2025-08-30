@@ -49,7 +49,9 @@ const DigitalTransformation = ({
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4 text-black">
-        <h1 className="text-3xl font-bold text-left mb-4">{title}</h1>
+        <h1 className="text-3xl font-bold text-left mb-4">
+          {title} <br /> Maharashtra
+        </h1>
         <p className="text-left text-base mb-12 mx-auto">{desc}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">

@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "../../components/common/HeroSection";
 import MissionVision from "./components/MissionVision";
-import DigitalTransformation from "./components/DigitalTransformation";
+import DigitalTransformation from "@/components/common/DigitalTransformation";
 import Empowering from "./components/Empowering";
 
 const page = () => {
@@ -38,7 +38,43 @@ const page = () => {
         smart service systems for businesses, institutions, and governments."
       />
       <MissionVision mission={mission} vision={vision} />
-      <DigitalTransformation />
+      <DigitalTransformation
+        title={"Driving Digital Transformation Across"}
+        desc={
+          "Technology Service Creater (TSC) plays a key role in building the digital foundation for Maharashtra&apos;s future. Through advanced IT services, <br /> cloud infrastructure, and AI-driven solutions, TSC accelerates the mission of making Digital Maharashtra by 2027."
+        }
+        img1={"/digital.jpg"}
+        img1title={"Digital Infrastructure Development"}
+        img1desc={
+          "Providing secure, scalable cloud solutions for government and businesses, enabling paperless, faceless governance."
+        }
+        img2={"/e-gover.jpg"}
+        img2title={"e-Governance Enablement"}
+        img2desc={
+          "Transforming citizen services with AI chatbots, online portals, and automation to ensure transparency and efficiency."
+        }
+        img3={"/cyber.jpg"}
+        img3title={"Cybersecurity for Digital Trust"}
+        img3desc={
+          "Building strong security frameworks to safeguard government databases and citizen information."
+        }
+        img4={"/AI.jpg"}
+        img4title={"AI & Automation Integration"}
+        img4desc={
+          "Deploying AI for predictive analytics, automated service delivery, and smart city solutions."
+        }
+        img5={"/support.jpg"}
+        img5title={"Support for Startups & MSMEs"}
+        img5desc={
+          "Offering technology solutions and platforms to empower Maharashtra's digital economy."
+        }
+        img6={"/collab.png"}
+        img6title={"Collaboration with Other TWC Verticals"}
+        img6desc={
+          "Integrating services with TAC for AgriTech, TSC for skill development, and TEC for digital education."
+        }
+        applytitle={"Service"}
+      />
       <Empowering />
     </>
   );
