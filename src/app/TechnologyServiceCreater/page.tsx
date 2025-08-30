@@ -3,6 +3,7 @@ import HeroSection from "../../components/common/HeroSection";
 import MissionVision from "./components/MissionVision";
 import DigitalTransformation from "@/components/common/DigitalTransformation";
 import Empowering from "./components/Empowering";
+import ApplyNow from "@/components/common/ApplyNow";
 
 const page = () => {
   const mission = {
@@ -73,8 +74,8 @@ const page = () => {
         img6desc={
           "Integrating services with TAC for AgriTech, TSC for skill development, and TEC for digital education."
         }
-        applytitle={"Service"}
       />
+      <ApplyNow title={"Service"} />
       <Empowering />
     </>
   );

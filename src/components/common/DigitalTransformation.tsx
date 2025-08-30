@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ApplyNow from "@/components/common/ApplyNow";
 
 const DigitalTransformation = ({
   title,
@@ -22,7 +21,6 @@ const DigitalTransformation = ({
   img6,
   img6title,
   img6desc,
-  applytitle,
 }: {
   title: string;
   desc: string;
@@ -44,10 +42,9 @@ const DigitalTransformation = ({
   img6: string;
   img6title: string;
   img6desc: string;
-  applytitle: string;
 }) => {
   return (
-    <section className="py-16 bg-white">
+    <section className="mt-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4 text-black">
         <h1 className="text-3xl font-bold text-left mb-4">
           {title} <br /> Maharashtra
@@ -132,8 +129,6 @@ const DigitalTransformation = ({
         </div>
 
         <hr className="py-10 w-[80%]" />
-
-        <ApplyNow title={applytitle} />
       </div>
     </section>
   );

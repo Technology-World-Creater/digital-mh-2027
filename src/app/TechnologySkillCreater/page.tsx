@@ -2,6 +2,8 @@ import React from "react";
 import HeroSection from "@/components/common/HeroSection";
 import DigitalTransformation from "@/components/common/DigitalTransformation";
 import OurVision from "@/components/common/OurVision";
+import TSCContribution from "./components/TSCContribution";
+import ApplyNow from "@/components/common/ApplyNow";
 
 const page = () => {
   return (
@@ -63,8 +65,9 @@ const page = () => {
         img6desc={
           "Integrating services with TAC for AgriTech, TSC for skill development, and TEC for digital education."
         }
-        applytitle={"Skill"}
       />
+      <TSCContribution />
+      <ApplyNow title={"Skill"} />
     </>
   );
 };
