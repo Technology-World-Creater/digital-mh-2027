@@ -16,7 +16,7 @@ const WhyTecMatters = () => {
             height={0}
             sizes="100vw"
             alt=""
-            className="hidden md:block absolute right-[13em] top-7 z-10 w-auto h-auto"
+            className="hidden lg:block absolute right-[13em] top-7 z-10 w-auto h-auto"
           />
         </h2>
         <p className="text-xl leading-relaxed mb-1 text-[#5C6C68]">
@@ -117,7 +117,7 @@ const WhyTecMatters = () => {
               Join the movement to transform Ed-Tech Sector. Be part of Digital
               Maharashtra 2027.
             </h2>
-            <button className="flex absolute md:-right-20 right-20 bottom-2 md:bottom-2/5 text-lg leading-relaxed bg-green-500 hover:bg-green-600 text-white font-light py-3 px-8 rounded-lg items-center space-x-2">
+            <button className="flex absolute lg:-right-20 right-20 bottom-2 lg:bottom-2/5 text-lg leading-relaxed bg-green-500 hover:bg-green-600 text-white font-light py-3 px-8 rounded-lg items-center space-x-2">
               <span>APPLY NOW</span>
               <svg
                 xmlns="http://www.w3.org/6000/svg"

@@ -212,14 +212,18 @@ const ImpactByTEC: React.FC = () => {
               {tabs.map((tab, index) => (
                 <button
                   key={index}
-                  className={`block w-full text-left py-3 px-4 rounded-l-lg mb-2 transition-colors duration-200 ${
-                    activeTab === index
-                      ? "bg-[#FEFAF5] text-gray-700 font-semibold"
-                      : "text-gray-700 hover:bg-[#FEFAF5]"
-                  }`}
+                  className={`relative block w-full text-left py-3 px-4 rounded-l-lg mb-2 transition-colors duration-200 ${activeTab === index
+                    ? "bg-[#FEFAF5] text-gray-700 font-semibold"
+                    : "text-gray-700 hover:bg-[#FEFAF5]"
+                    }`}
                   onClick={() => setActiveTab(index)}
                 >
                   {tab.name}
+                  {activeTab === index && (
+                    <span className="absolute right-4 top-1/2 -translate-y-1/2 text-[#03CF65]">
+                      &rarr;
+                    </span>
+                  )}
                 </button>
               ))}
             </nav>

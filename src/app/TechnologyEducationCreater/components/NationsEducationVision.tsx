@@ -28,7 +28,7 @@ const NationsEducationVision = () => {
             height={0}
             sizes="100vw"
             alt=""
-            className="hidden md:block absolute right-[16em] top-7 z-10 w-auto h-auto"
+            className="hidden lg:block absolute right-[16em] top-7 z-10 w-auto h-auto"
           />
         </h2>
         <p className="text-lg text-[#5C6C68] mb-12 text-center md:text-left">
