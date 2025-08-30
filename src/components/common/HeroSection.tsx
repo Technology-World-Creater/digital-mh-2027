@@ -22,7 +22,7 @@ const HeroSection = ({
           alt="Background"
           layout="fill"
           objectFit="cover"
-          className="opacity-30"
+          className="opacity-30 object-contain"
         />
       </div>
       <div className="relative z-10 container mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between">
@@ -41,12 +41,12 @@ const HeroSection = ({
           <p className="text-lg leading-relaxed mt-5">{description}</p>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg flex items-center space-x-4">
+          <div className="bg-white rounded-lg shadow-lg flex items-center space-x-4">
             <Image
               src={logoImage}
               alt="Technology Service Creater Logo"
-              width={420}
-              height={100}
+              width={520}
+              height={50}
             />
           </div>
         </div>
