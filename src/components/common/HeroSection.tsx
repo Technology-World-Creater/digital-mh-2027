@@ -20,9 +20,8 @@ const HeroSection = ({
         <Image
           src={bgImage}
           alt="Background"
-          layout="fill"
-          objectFit="cover"
-          className="opacity-30 object-contain"
+          fill
+          className="opacity-30 object-cover"
         />
       </div>
       <div className="relative z-10 container mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between">

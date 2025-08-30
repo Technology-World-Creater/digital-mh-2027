@@ -10,8 +10,7 @@ const GrowthFundingOpportunities = () => {
           alt="Footer Background"
           width={1000}
           height={200}
-          objectFit="cover"
-          className="w-full text-[#03CF65]"
+          className="w-full text-[#03CF65] object-cover"
         />
       </div>
       <div className="relative mx-auto z-10 text-center py-8 bg-white rounded-2xl w-80  md:w-[40em] h-60 flex items-center justify-center flex-col shadow-2xl mt-3">

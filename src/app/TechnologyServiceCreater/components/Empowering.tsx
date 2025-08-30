@@ -61,8 +61,7 @@ const Empowering = () => {
                 alt="Team Image"
                 width={500}
                 height={300}
-                objectFit="contain"
-                className="rounded-lg"
+                className="rounded-lg object-contain"
               />
               <Image
                 src="/vector.png"
