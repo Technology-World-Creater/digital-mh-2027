@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "@/components/common/HeroSection";
+import ContributionToDigitalMaharashtra from "./components/ContributionToDigitalMaharashtra";
 import OurVision from "@/components/common/OurVision";
 
 const page = () => {
@@ -27,6 +28,7 @@ const page = () => {
           "To collaborate with leading tech giants and institutions to build the worlds most advanced skill development."
         }
       />
+      <ContributionToDigitalMaharashtra />
     </>
   );
 };
