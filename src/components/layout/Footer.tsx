@@ -23,8 +23,10 @@ const Footer = () => {
               <Image
                 src="/logo.png"
                 alt="Digital Maharashtra 2027 Logo"
-                width={350}
-                height={250}
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="w-80 h-auto"
               />
             </div>
             <div className="flex justify-center md:justify-start space-x-10 mx-auto md:mx-0">
