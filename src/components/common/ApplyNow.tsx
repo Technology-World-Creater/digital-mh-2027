@@ -2,7 +2,7 @@ import React from "react";
 
 const ApplyNow = ({ title }: { title: string }) => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto overflow-hidden">
       <div className="relative mt-20 bg-[#B1FFD7] py-12 px-4 text-left mb-12 max-w-6xl">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
           <h2 className="text-2xl md:text-3xl font-normal text-gray-800 mb-4 w-[80%] md:mb-0">

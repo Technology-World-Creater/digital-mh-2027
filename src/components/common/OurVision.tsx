@@ -26,7 +26,7 @@ const OurVision = ({
           {desc}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           <div className="bg-[#EFE9E2] p-6 shadow-md flex items-center justify-center">
             <div className="text-4xl font-light text-black mr-4 w-16 h-16 flex items-center justify-center">
               01

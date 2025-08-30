@@ -2,7 +2,7 @@ import React from "react";
 import HeroSection from "@/components/common/HeroSection";
 import DigitalTransformation from "@/components/common/DigitalTransformation";
 import OurVision from "@/components/common/OurVision";
-import TSCContribution from "./components/TSCContribution";
+import TSCContribution from "@/components/common/TSCContribution";
 import ApplyNow from "@/components/common/ApplyNow";
 
 const page = () => {
@@ -66,7 +66,45 @@ const page = () => {
           "Integrating services with TAC for AgriTech, TSC for skill development, and TEC for digital education."
         }
       />
-      <TSCContribution />
+      <TSCContribution
+        title="TSC Contributes to"
+        description="Digital Maharashtra 2027 ?"
+        sections={[
+          {
+            imageSrc: "/skill1.png",
+            altText: "Skill Development",
+            title: "Skill Development",
+            description:
+              "Empowering youth with advanced tech skills in AI, Cloud, IoT, Data Science, and Cybersecurity for future-ready jobs.",
+          },
+          {
+            imageSrc: "/digital1.png",
+            altText: "Digital Learning Platforms",
+            title: "Digital Learning Platforms",
+            description:
+              "Creating interactive, AI-powered e-learning platforms for accessible and personalized education.",
+          },
+          {
+            imageSrc: "/industry.png",
+            altText: "Industry Partnerships",
+            title: "Industry Partnerships",
+            description:
+              "Collaborating with global tech companies to design industry-relevant curriculum and internships.",
+          },
+          {
+            imageSrc: "/employment.png",
+            altText: "Employment & Entrepreneurship",
+            title: "Employment & Entrepreneurship",
+            description:
+              "Supporting startups and freelancers through tech skill incubators and innovation hubs.",
+          },
+        ]}
+        mainImageSrc="/skill.jpg"
+        mainImageAlt="Empowering Skills, Beyond Limits!"
+        logoImageSrc="/TSCLogo1.png"
+        logoImageAlt="Empowering Skills, Beyond Limits!"
+        logoTitle="Empowering Skills, Beyond Limits!"
+      />
       <ApplyNow title={"Skill"} />
     </>
   );
