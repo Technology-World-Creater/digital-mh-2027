@@ -16,7 +16,7 @@ const TabContent: React.FC<TabContentProps> = ({
   points,
   images,
 }) => (
-  <div className="p-6 bg-white rounded-lg shadow-md">
+  <div className="p-6 bg-[#FEFAF5]">
     <h3 className="text-2xl font-bold text-[#03CF65] mb-4">
       {title.includes(".") ? (
         <>
@@ -189,9 +189,9 @@ const ImpactByTEC: React.FC = () => {
   ];
 
   return (
-    <section className="py-12 bg-white">
+    <section className="my-12">
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center md:text-left">
             Impact by,{" "}
             <span className="text-green-700">
@@ -204,17 +204,17 @@ const ImpactByTEC: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-[#F8F5F0]">
-        <div className="flex flex-col md:flex-row gap-8">
+      <div className="px-4 sm:px-6 lg:px-8 bg-[#EFE9E2]">
+        <div className="flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
           {/* Left Sidebar for Tabs */}
-          <div className="md:w-1/4 bg-white p-6 rounded-lg shadow-md">
+          <div className="md:w-1/4 py-6">
             <nav>
               {tabs.map((tab, index) => (
                 <button
                   key={index}
                   className={`block w-full text-left py-3 px-4 rounded-lg mb-2 transition-colors duration-200 ${
                     activeTab === index
-                      ? "bg-green-100 text-green-700 font-semibold"
+                      ? "bg-[#FEFAF5] text-gray-700 font-semibold"
                       : "text-gray-700 hover:bg-gray-50"
                   }`}
                   onClick={() => setActiveTab(index)}
@@ -226,7 +226,7 @@ const ImpactByTEC: React.FC = () => {
           </div>
 
           {/* Right Content Area */}
-          <div className="md:w-3/4">
+          <div className="md:w-3/4 ">
             <TabContent {...tabs[activeTab].content} />
           </div>
         </div>

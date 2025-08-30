@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhyTecMatters = () => {
   return (
     <section className="bg-[#FEFAF5] text-gray-800">
-      <div className="max-w-7xl mx-auto py-16 px-4 md:px-8 lg:px-16 ">
+      <div className="max-w-7xl mx-auto py-16 ">
         <h2 className="relative text-4xl font-bold mb-4">
           Why TEC Matters for{" "}
           <span className="text-green-500 z-50">
@@ -16,7 +16,7 @@ const WhyTecMatters = () => {
             height={0}
             sizes="100vw"
             alt=""
-            className="hidden md:block absolute right-[9.9em] top-7 z-10 w-auto h-auto"
+            className="hidden md:block absolute right-[13em] top-7 z-10 w-auto h-auto"
           />
         </h2>
         <p className="text-xl leading-relaxed mb-1 text-[#5C6C68]">
@@ -72,7 +72,7 @@ const WhyTecMatters = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto py-16 px-4 md:px-8 lg:px-16 ">
+      <div className="max-w-7xl mx-auto py-16 ">
         <p className="text-xl font-semibold text-gray-800 leading-5 mb-8">
           And yet, nobody{" "}
           <span className="font-normal text-[#03CF65] italic">
