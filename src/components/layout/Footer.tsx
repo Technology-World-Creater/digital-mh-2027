@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex md:flex-row gap-24 flex-wrap md:gap-28 w-full md:w-auto">
+          <div className="flex md:flex-row gap-24 flex-wrap w-full md:w-auto">
             {/* Platform Links */}
             <div>
               <h3 className="font-bold text-gray-800 mb-3">Platform</h3>
@@ -94,7 +94,7 @@ const Footer = () => {
             </div>
 
             {/* Resources Links */}
-            <div className="pl-6 lg:pl-0">
+            <div className="pl-6 md:pl-0">
               <h3 className="font-bold text-gray-800 mb-3">Resources</h3>
               <ul className="space-y-2 text-sm">
                 <li>
