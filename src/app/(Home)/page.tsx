@@ -5,6 +5,7 @@ import HomeKeyInitiatives from "./components/HomeKeyInitiatives";
 import HomeMegaProjects from "./components/HomeMegaProjects";
 import HomeGovernmentAndLeadership from "./components/HomeGovernmentAndLeadership";
 import HomeOpportunitiesToApply from "./components/HomeOpportunitiesToApply";
+import HomePartners from "./components/HomePartners";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeMegaProjects />
       <HomeGovernmentAndLeadership />
       <HomeOpportunitiesToApply />
+      <HomePartners />
     </main>
   );
 }
