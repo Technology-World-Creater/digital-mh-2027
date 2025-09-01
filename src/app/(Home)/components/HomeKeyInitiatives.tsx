@@ -94,7 +94,7 @@ const HomeKeyInitiatives = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="object-contain mb-4 w-full"
+                className="object-contain mb-4 w-full h-20 md:h-24"
               />
               <div className="w-full">
                 <Link
