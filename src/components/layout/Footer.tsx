@@ -58,60 +58,23 @@ const Footer = () => {
           </div>
 
           <div className="flex md:flex-row gap-24 flex-wrap w-full md:w-auto">
-            {/* Platform Links */}
+            {/* Support Links */}
             <div>
-              <h3 className="font-bold text-gray-800 mb-3">Platform</h3>
+              <h3 className="font-bold text-gray-800 mb-3">Support</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Features
+                    Who we are
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Industries
+                    Together for 2027
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Pricing
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Book a Demo
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Become a Partner
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    WhatsApp Marketing
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Resources Links */}
-            <div className="pl-6 md:pl-0">
-              <h3 className="font-bold text-gray-800 mb-3">Resources</h3>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Help Center
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Blog
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    About AISensy
+                    Get Involved
                   </Link>
                 </li>
                 <li>
@@ -119,53 +82,46 @@ const Footer = () => {
                     Contact Us
                   </Link>
                 </li>
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Careers
-                  </Link>
-                </li>
               </ul>
             </div>
 
-            {/* FREE Tools Links */}
+            {/* Our Initiatives Links */}
             <div>
-              <h3 className="font-bold text-gray-800 mb-3">FREE Tools</h3>
+              <h3 className="font-bold text-gray-800 mb-3">Our Initiatives</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    WhatsApp Button
+                    Technology Education Creater
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Generate WhatsApp Link
+                    Technology Service Creater
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Download Android app
+                    Technology Agriculture Creater
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Download iOS app
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Legal Links */}
-            <div>
-              <h3 className="font-bold text-gray-800 mb-3">Legal</h3>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Privacy Policy
+                    Technology Property Creater
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
-                    Refund Policy
+                    Technology Skill Creater
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                    Brain Intelligence
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                    The Concept of Analysement
                   </Link>
                 </li>
               </ul>
