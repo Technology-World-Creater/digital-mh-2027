@@ -86,7 +86,7 @@ const HomeKeyInitiatives = () => {
           {initiatives.map((initiative, index) => (
             <div
               key={index}
-              className="bg-white h-[23em] rounded-lg shadow-lg px-6 py-10 flex flex-col items-center"
+              className="bg-white h-fit md:h-[23em] rounded-lg shadow-lg px-6 py-10 flex flex-col items-center"
             >
               <Image
                 src={initiative.image}
