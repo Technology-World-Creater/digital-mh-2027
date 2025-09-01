@@ -71,6 +71,7 @@ const page = () => {
       <TSCContribution
         title="TSC Contributes to"
         description="Digital Maharashtra 2027 ?"
+        line="/Yline.png"
         sections={[
           {
             imageSrc: "/skill1.png",

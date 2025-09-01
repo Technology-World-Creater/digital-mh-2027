@@ -3,6 +3,7 @@ import Image from "next/image";
 interface TSCContributionProps {
   title: string;
   description: string;
+  line: string;
   sections: {
     imageSrc: string;
     altText: string;
@@ -19,6 +20,7 @@ interface TSCContributionProps {
 const TSCContribution: React.FC<TSCContributionProps> = ({
   title,
   description,
+  line,
   sections,
   mainImageSrc,
   mainImageAlt,
@@ -29,8 +31,20 @@ const TSCContribution: React.FC<TSCContributionProps> = ({
   return (
     <section className="pt-16 pb-0 bg-white">
       <div className="container mx-auto max-w-7xl px-4 text-black">
-        <h1 className="text-4xl font-bold mb-20">
-          {title} <span className="text-[#03CF65]">{description}</span>
+        <h1 className="relative z-50 text-4xl font-bold mb-20">
+          {title}{" "}
+          <span className="text-[#03CF65]">
+            {description}{" "}
+            <span className="hidden lg:block -z-10">
+              <Image
+                src={line}
+                alt="Line"
+                width={380}
+                height={500}
+                className=" w-60 h-5 mt-2 -z-10 absolute left-90 top-5"
+              />
+            </span>
+          </span>
         </h1>
 
         <div className="flex flex-col lg:flex-row mb-12 gap-10">

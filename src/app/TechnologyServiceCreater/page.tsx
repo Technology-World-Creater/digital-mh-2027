@@ -30,6 +30,7 @@ const page = () => {
       <HeroSection
         title="Technology Service Creater"
         line={"/heroLine.png"}
+        top={"top-23"}
         bgImage={"/TSCHero.jpg"}
         logoImage={"/TSCLogo.png"}
         description="Technology Service Creater (TSC) is a dynamic wing of TWC focused on
@@ -41,6 +42,7 @@ const page = () => {
       <MissionVision mission={mission} vision={vision} />
       <DigitalTransformation
         title={"Driving Digital Transformation Across"}
+        line={"/Vector.png"}
         desc={
           "Technology Service Creater (TSC) plays a key role in building the digital foundation for Maharashtra&apos;s future. Through advanced IT services, <br /> cloud infrastructure, and AI-driven solutions, TSC accelerates the mission of making Digital Maharashtra by 2027."
         }

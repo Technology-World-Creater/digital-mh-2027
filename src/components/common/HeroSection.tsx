@@ -37,7 +37,7 @@ const HeroSection = ({
             alt="Line"
             width={380}
             height={500}
-            className={`-mt-6 z-10 hidden lg:block absolute ${top}`}
+            className={`-mt-6 z-10 h-4 hidden lg:block absolute ${top}`}
           />
           <p className="text-lg leading-relaxed mt-5">{description}</p>
         </div>
