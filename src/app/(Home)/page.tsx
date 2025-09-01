@@ -3,6 +3,7 @@ import HomeMapSection from "./components/HomeMapSection";
 import HomeMissionSection from "./components/HomeMissionSection";
 import HomeKeyInitiatives from "./components/HomeKeyInitiatives";
 import HomeMegaProjects from "./components/HomeMegaProjects";
+import HomeGovernmentAndLeadership from "./components/HomeGovernmentAndLeadership";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HomeMissionSection />
       <HomeKeyInitiatives />
       <HomeMegaProjects />
+      <HomeGovernmentAndLeadership />
     </main>
   );
 }
