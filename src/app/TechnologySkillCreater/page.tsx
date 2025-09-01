@@ -12,7 +12,7 @@ const page = () => {
         bgImage="/TSCHero1.jpg"
         title="Technology Skills Creater"
         line="/yellowline.png"
-        top="top-16"
+        top="top-16 h-20"
         description="Technology Skill Creater (TSC) is a flagship initiative under Digital Maharashtra 2027, dedicated to bridging the digital skills gap by empowering individuals with industry-relevant technology skills. TSC focuses on AI, IoT, Cloud Computing, Data Analytics, Cybersecurity, and Software Development, preparing Maharashtra's youth and workforce for the Industry 4.0 revolution."
         logoImage="/TSCLogo1.png"
       />

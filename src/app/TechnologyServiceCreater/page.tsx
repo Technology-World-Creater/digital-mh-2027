@@ -30,7 +30,7 @@ const page = () => {
       <HeroSection
         title="Technology Service Creater"
         line={"/heroLine.png"}
-        top={"top-23"}
+        top={"top-23 h-4"}
         bgImage={"/TSCHero.jpg"}
         logoImage={"/TSCLogo.png"}
         description="Technology Service Creater (TSC) is a dynamic wing of TWC focused on
