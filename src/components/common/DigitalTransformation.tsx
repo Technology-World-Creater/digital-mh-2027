@@ -3,6 +3,7 @@ import Image from "next/image";
 const DigitalTransformation = ({
   title,
   desc,
+  line,
   img1,
   img1title,
   img1desc,
@@ -24,6 +25,7 @@ const DigitalTransformation = ({
 }: {
   title: string;
   desc: string;
+  line: string;
   img1: string;
   img1title: string;
   img1desc: string;
@@ -46,8 +48,18 @@ const DigitalTransformation = ({
   return (
     <section className="mt-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4 text-black">
-        <h1 className="text-3xl font-bold text-left mb-4">
-          {title} <br /> Maharashtra
+        <h1 className="relative text-3xl z-50 font-bold text-left mb-4">
+          {title}
+          <span className="hidden lg:block -z-10">
+            <Image
+              src={line}
+              alt="Line"
+              width={380}
+              height={500}
+              className=" w-60 h-4 mt-2 -z-10 absolute left-49 top-5"
+            />
+          </span>
+          <br /> Maharashtra
         </h1>
         <p className="text-left text-base mb-12 mx-auto">{desc}</p>
 

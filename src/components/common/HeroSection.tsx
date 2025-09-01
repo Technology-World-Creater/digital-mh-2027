@@ -3,12 +3,14 @@ import Image from "next/image";
 const HeroSection = ({
   title,
   line,
+  top,
   bgImage,
   logoImage,
   description,
 }: {
   title: string;
   line: string;
+  top: string;
   bgImage: string;
   logoImage: string;
   description: string;
@@ -35,7 +37,7 @@ const HeroSection = ({
             alt="Line"
             width={380}
             height={500}
-            className="-mt-6 z-10 hidden lg:block"
+            className={`-mt-6 z-10 hidden lg:block absolute ${top}`}
           />
           <p className="text-lg leading-relaxed mt-5">{description}</p>
         </div>

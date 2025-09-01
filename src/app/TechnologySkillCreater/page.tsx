@@ -11,7 +11,8 @@ const page = () => {
       <HeroSection
         bgImage="/TSCHero1.jpg"
         title="Technology Skills Creater"
-        line="/heroLine.png"
+        line="/yellowline.png"
+        top="top-16"
         description="Technology Skill Creater (TSC) is a flagship initiative under Digital Maharashtra 2027, dedicated to bridging the digital skills gap by empowering individuals with industry-relevant technology skills. TSC focuses on AI, IoT, Cloud Computing, Data Analytics, Cybersecurity, and Software Development, preparing Maharashtra's youth and workforce for the Industry 4.0 revolution."
         logoImage="/TSCLogo1.png"
       />
@@ -35,6 +36,7 @@ const page = () => {
         desc={
           "Technology Skill Creater (TSC) plays a critical role in shaping Maharashtra's digital workforce. By providing advanced technology training,upskilling opportunities, and AI-driven learning platforms, TSC ensures that citizens and professionals are equipped to thrive in the digital economy by 2027."
         }
+        line={"/Yline.png"}
         img1={"/1.jpg"}
         img1title={"Digital Literacy & Upskilling"}
         img1desc={

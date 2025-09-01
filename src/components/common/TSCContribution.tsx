@@ -27,7 +27,7 @@ const TSCContribution: React.FC<TSCContributionProps> = ({
   logoTitle,
 }) => {
   return (
-    <section className="py-16 bg-white">
+    <section className="pt-16 pb-0 bg-white">
       <div className="container mx-auto max-w-7xl px-4 text-black">
         <h1 className="text-4xl font-bold mb-20">
           {title} <span className="text-[#03CF65]">{description}</span>
