@@ -49,31 +49,25 @@ const Navbar = () => {
               href="#"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
             >
-              Who We Are
+              Home
             </Link>
             <Link
               href="#"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
             >
-              Initiatives
+              Our Initiatives
             </Link>
             <Link
               href="#"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
             >
-              Chapters
+              Together from 2027
             </Link>
             <Link
               href="#"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
             >
               Get Involved
-            </Link>
-            <Link
-              href="#"
-              className="text-gray-700 hover:text-[#03CF65] font-medium"
-            >
-              Resources
             </Link>
           </div>
 
