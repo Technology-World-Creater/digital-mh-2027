@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
 import TechnologyWorldCreater from "@/components/common/TechnologyWorldCreater";
 import GrowthFundingOpportunities from "@/components/common/GrowthFundingOpportunities";
+import Image from "next/image";
+import Link from "next/link";
+import { Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -17,7 +18,12 @@ const Footer = () => {
               © 2025 Technology World Creater Private Limited
             </p>
             <p className="text-gray-600 text-sm mb-4 flex items-center">
-              Made with <span className="mx-1 text-gray-600">♥️</span> in India
+              Made with{" "}
+              <span className="mx-1 text-gray-600">
+                {" "}
+                <Heart size={15} color="#4a5568" fill="#4a5568" />
+              </span>{" "}
+              in India
             </p>
             <div className="flex items-center mb-4">
               <Image
@@ -109,6 +115,11 @@ const Footer = () => {
                     Technology Property Creater
                   </Link>
                 </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-gray-800 mb-3">Our Initiatives</h3>
+              <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
                     Technology Skill Creater
