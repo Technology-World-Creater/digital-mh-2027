@@ -4,6 +4,7 @@ import HomeMissionSection from "./components/HomeMissionSection";
 import HomeKeyInitiatives from "./components/HomeKeyInitiatives";
 import HomeMegaProjects from "./components/HomeMegaProjects";
 import HomeGovernmentAndLeadership from "./components/HomeGovernmentAndLeadership";
+import HomeOpportunitiesToApply from "./components/HomeOpportunitiesToApply";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HomeKeyInitiatives />
       <HomeMegaProjects />
       <HomeGovernmentAndLeadership />
+      <HomeOpportunitiesToApply />
     </main>
   );
 }
