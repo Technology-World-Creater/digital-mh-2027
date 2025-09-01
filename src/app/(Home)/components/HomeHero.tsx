@@ -18,7 +18,7 @@ const HomeHero = () => {
             alt="Digital Maharashtra 2027 Logo"
             width={1100}
             height={1100}
-            className="w-full max-w-xs md:max-w-xl lg:max-w-3xl xl:max-w-4xl mb-4"
+            className="w-full max-w-xl -mt-20 md:mt-0 md:max-w-xl lg:max-w-3xl xl:max-w-4xl mb-4"
           />
         </div>
 
