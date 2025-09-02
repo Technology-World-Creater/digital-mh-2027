@@ -64,11 +64,17 @@ const Navbar = () => {
                 onClick={() =>
                   setIsInitiativesDropdownOpen(!isInitiativesDropdownOpen)
                 }
-                className={`font-medium ${pathname.startsWith('/initiatives') ? 'text-[#03CF65]' : 'text-gray-700 hover:text-[#03CF65]'} focus:outline-none flex items-center`}
+                className={`font-medium ${
+                  pathname.startsWith("/initiatives")
+                    ? "text-[#03CF65]"
+                    : "text-gray-700 hover:text-[#03CF65]"
+                } focus:outline-none flex items-center`}
               >
                 Our Initiatives
                 <svg
-                  className={`ml-1 h-4 w-4 transform ${isInitiativesDropdownOpen ? 'rotate-180' : 'rotate-0'} transition-transform duration-200`}
+                  className={`ml-1 h-4 w-4 transform ${
+                    isInitiativesDropdownOpen ? "rotate-180" : "rotate-0"
+                  } transition-transform duration-200`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -84,42 +90,64 @@ const Navbar = () => {
               </button>
               {isInitiativesDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
-                  <Link
-                    href="/initiatives/technology-education-creater"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Technology Education Creater
-                  </Link>
-                  <Link
-                    href="/initiatives/technology-agriculture-creater"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Technology Agriculture Creater
-                  </Link>
-                  <Link
-                    href="/initiatives/technology-service-creater"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Technology Service Creater
-                  </Link>
-                  <Link
-                    href="/initiatives/brain-intelligence"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Brain Intelligence
-                  </Link>
-                  <Link
-                    href="/initiatives/technology-property-creater"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Technology Property Creater
-                  </Link>
-                  <Link
-                    href="/initiatives/technology-skills-creater"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Technology Skills Creater
-                  </Link>
+                  <ul>
+                    <li>
+                      <Link
+                        href="/initiatives/technology-education-creater"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Technology Education Creater
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/initiatives/technology-agriculture-creater"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Technology Agriculture Creater
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/initiatives/technology-service-creater"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Technology Service Creater
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/initiatives/brain-intelligence"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Brain Intelligence
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/initiatives/technology-property-creater"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Technology Property Creater
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/initiatives/technology-skill-creater"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Technology Skill Creater
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/initiatives/the-concept-of-analysement"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        The Concept of Analysement
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               )}
             </div>
@@ -196,11 +224,17 @@ const Navbar = () => {
                 onClick={() =>
                   setIsInitiativesDropdownOpen(!isInitiativesDropdownOpen)
                 }
-                className={`block px-4 py-2 ${pathname.startsWith('/initiatives') ? 'text-[#03CF65]' : 'text-gray-700 hover:bg-gray-100'} focus:outline-none w-full text-left flex items-center`}
+                className={`block px-4 py-2 ${
+                  pathname.startsWith("/initiatives")
+                    ? "text-[#03CF65]"
+                    : "text-gray-700 hover:bg-gray-100"
+                } focus:outline-none w-full text-left flex items-center`}
               >
                 Our Initiatives
                 <svg
-                  className={`ml-1 h-4 w-4 transform ${isInitiativesDropdownOpen ? 'rotate-180' : 'rotate-0'} transition-transform duration-200`}
+                  className={`ml-1 h-4 w-4 transform ${
+                    isInitiativesDropdownOpen ? "rotate-180" : "rotate-0"
+                  } transition-transform duration-200`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -247,10 +281,10 @@ const Navbar = () => {
                     Technology Property Creater
                   </Link>
                   <Link
-                    href="/initiatives/technology-skills-creater"
+                    href="/initiatives/technology-skill-creater"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
-                    Technology Skills Creater
+                    Technology Skill Creater
                   </Link>
                 </div>
               )}

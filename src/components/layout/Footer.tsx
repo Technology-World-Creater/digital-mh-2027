@@ -69,22 +69,34 @@ const Footer = () => {
               <h3 className="font-bold text-gray-800 mb-3">Support</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/who-we-are"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Who we are
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/together-from-2027"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Together for 2027
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/get-involved"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Get Involved
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/contact-us"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Contact Us
                   </Link>
                 </li>
@@ -96,22 +108,34 @@ const Footer = () => {
               <h3 className="font-bold text-gray-800 mb-3">Our Initiatives</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/initiatives/technology-education-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Technology Education Creater
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/initiatives/technology-service-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Technology Service Creater
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/initiatives/technology-agriculture-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Technology Agriculture Creater
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/initiatives/technology-property-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Technology Property Creater
                   </Link>
                 </li>
@@ -121,12 +145,18 @@ const Footer = () => {
               <h3 className="font-bold text-gray-800 mb-3">Our Initiatives</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/initiatives/technology-skill-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Technology Skill Creater
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
+                  <Link
+                    href="/initiatives/brain-intelligence"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
                     Brain Intelligence
                   </Link>
                 </li>
