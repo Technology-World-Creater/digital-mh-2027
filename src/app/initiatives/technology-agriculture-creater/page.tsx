@@ -21,25 +21,25 @@ const page = () => {
         description="TAC (Technology Agriculture Creater) is an AgriTech initiative under Technology World Creater (TWC), designed to digitize and modernize the agriculture ecosystem. It integrates technology, AI solutions, digital marketplaces, and financial services to empower farmers, buyers, and agri-businesses."
       />
 
-      <div className="flex flex-col bg-white w-full ">
-        <div className="flex flex-col px-6 sm:px-12 md:px-20 lg:px-[120px] py-8 md:py-12 text-start">
-          <div className="flex flex-wrap text-gray-800 text-3xl sm:text-4xl md:text-5xl font-semibold font-['Inter'] leading-tight md:leading-[69.19px] gap-2 pb-4">
+      <div className="flex flex-col max-w-7xl mx-auto ">
+        <div className="flex flex-col px-6 py-8 md:py-12 text-left">
+          <div className="flex flex-wrap text-gray-800 text-4xl font-bold mb-4 gap-2 pb-4">
             Why TAC Matters for{" "}
-            <span className="text-green-500 relative">
+            <span className="text-green-500 z-50 relative">
               Digital Maharashtra 2027
               <Image
                 src={"/DigitalMaharashtraLine.png"}
                 alt="Digital Maharashtra"
                 width={250}
                 height={2}
-                className="absolute hidden sm:block top-8 md:top-12 left-0 md:left-[270px]"
+                className="absolute -z-10 hidden lg:block top-7 left-42"
               />
             </span>
           </div>
 
-          <div className="flex text-[#5C6C68] text-lg sm:text-xl md:text-2xl font-medium font-['Inter'] leading-7 md:leading-9">
+          <div className="flex text-[#5C6C68] text-xl leading-relaxed mb-1">
             <p>
-              <span className="text-neutral-500 text-lg sm:text-xl md:text-2xl font-bold font-['Inter'] leading-7 md:leading-9">
+              <span className="text-neutral-500 text-xl font-bold leading-relaxed">
                 TAC (Technology Agriculture Creater) is not just an AgriTech
                 platform
               </span>{" "}
