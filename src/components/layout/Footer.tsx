@@ -100,6 +100,14 @@ const Footer = () => {
                     Contact Us
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/career"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
+                    Career
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -117,14 +125,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/initiatives/technology-service-creater"
-                    className="text-gray-600 hover:text-[#03CF65]"
-                  >
-                    Technology Service Creater
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/initiatives/technology-agriculture-creater"
                     className="text-gray-600 hover:text-[#03CF65]"
                   >
@@ -133,23 +133,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/initiatives/technology-property-creater"
+                    href="/initiatives/technology-service-creater"
                     className="text-gray-600 hover:text-[#03CF65]"
                   >
-                    Technology Property Creater
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-gray-800 mb-3">Our Initiatives</h3>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link
-                    href="/initiatives/technology-skill-creater"
-                    className="text-gray-600 hover:text-[#03CF65]"
-                  >
-                    Technology Skill Creater
+                    Technology Service Creater
                   </Link>
                 </li>
                 <li>
@@ -160,6 +147,28 @@ const Footer = () => {
                     Brain Intelligence
                   </Link>
                 </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-gray-800 mb-3">Our Initiatives</h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <Link
+                    href="/initiatives/technology-property-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
+                    Technology Property Creater
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/initiatives/technology-skill-creater"
+                    className="text-gray-600 hover:text-[#03CF65]"
+                  >
+                    Technology Skill Creater
+                  </Link>
+                </li>
+
                 <li>
                   <Link href="#" className="text-gray-600 hover:text-[#03CF65]">
                     The Concept of Analysement
