@@ -12,8 +12,8 @@ const ContactUsHero: React.FC<HeroSectionProps> = ({ title, bgImage }) => {
       <Image
         src={bgImage}
         alt="Background Image"
-        layout="fill"
-        objectFit="cover"
+        fill
+        sizes="100vw"
         quality={100}
         className="absolute inset-0 z-0"
       />

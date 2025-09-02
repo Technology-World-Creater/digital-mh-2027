@@ -114,8 +114,8 @@ const HomeGovernmentAndLeadership = () => {
                 <Image
                   src={ministry?.image || ""}
                   alt={ministry?.department || ""}
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
                 />
               </div>
               <p className="text-gray-700 font-medium mb-2 text-center">
@@ -161,8 +161,8 @@ const HomeGovernmentAndLeadership = () => {
                 <Image
                   src={person.image}
                   alt={person.name}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 20vw"
                   className="rounded-lg"
                 />
               </div>
