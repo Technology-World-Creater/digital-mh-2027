@@ -2,10 +2,14 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isInitiativesDropdownOpen, setIsInitiativesDropdownOpen] =
+    useState(false);
+  const pathname = usePathname();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -47,25 +51,85 @@ const Navbar = () => {
           <div className="hidden lg:flex space-x-8">
             <Link
               href="/"
-              className="text-gray-700 hover:text-[#03CF65] font-medium"
+              className={`font-medium ${
+                pathname === "/"
+                  ? "text-[#03CF65]"
+                  : "text-gray-700 hover:text-[#03CF65]"
+              }`}
             >
               Home
             </Link>
+            <div className="relative">
+              <button
+                onClick={() =>
+                  setIsInitiativesDropdownOpen(!isInitiativesDropdownOpen)
+                }
+                className={`font-medium ${
+                  pathname.startsWith("/initiatives")
+                    ? "text-[#03CF65]"
+                    : "text-gray-700 hover:text-[#03CF65]"
+                } focus:outline-none`}
+              >
+                Our Initiatives
+              </button>
+              {isInitiativesDropdownOpen && (
+                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
+                  <Link
+                    href="/initiatives/technology-education-creater"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Education Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-agriculture-creater"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Agriculture Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-service-creater"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Service Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/brain-intelligence"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Brain Intelligence
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-property-creater"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Property Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-skills-creater"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Skills Creater
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link
-              href="#"
-              className="text-gray-700 hover:text-[#03CF65] font-medium"
-            >
-              Our Initiatives
-            </Link>
-            <Link
-              href="#"
-              className="text-gray-700 hover:text-[#03CF65] font-medium"
+              href="/together-from-2027"
+              className={`font-medium ${
+                pathname === "/together-from-2027"
+                  ? "text-[#03CF65]"
+                  : "text-gray-700 hover:text-[#03CF65]"
+              }`}
             >
               Together from 2027
             </Link>
             <Link
-              href="/GetInvolved"
-              className="text-gray-700 hover:text-[#03CF65] font-medium"
+              href="/get-involved"
+              className={`font-medium ${
+                pathname === "/get-involved"
+                  ? "text-[#03CF65]"
+                  : "text-gray-700 hover:text-[#03CF65]"
+              }`}
             >
               Get Involved
             </Link>
@@ -73,7 +137,7 @@ const Navbar = () => {
 
           {/* Contact Us Button */}
           <Link
-            href="/ContactUs"
+            href="/contact-us"
             className="hidden lg:flex bg-[#03CF65] text-white px-6 py-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 items-center space-x-2"
           >
             <span>Contact Us</span>
@@ -109,25 +173,85 @@ const Navbar = () => {
           <div className="md:hidden bg-white py-2">
             <Link
               href="/"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+              className={`block px-4 py-2 ${
+                pathname === "/"
+                  ? "text-[#03CF65]"
+                  : "text-gray-700 hover:bg-gray-100"
+              }`}
             >
               Home
             </Link>
+            <div className="relative">
+              <button
+                onClick={() =>
+                  setIsInitiativesDropdownOpen(!isInitiativesDropdownOpen)
+                }
+                className={`block px-4 py-2 ${
+                  pathname.startsWith("/initiatives")
+                    ? "text-[#03CF65]"
+                    : "text-gray-700 hover:bg-gray-100"
+                } focus:outline-none w-full text-left`}
+              >
+                Our Initiatives
+              </button>
+              {isInitiativesDropdownOpen && (
+                <div className="bg-white py-1 z-10">
+                  <Link
+                    href="/initiatives/technology-education-creater"
+                    className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Education Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-agriculture-creater"
+                    className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Agriculture Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-service-creater"
+                    className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Service Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/brain-intelligence"
+                    className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Brain Intelligence
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-property-creater"
+                    className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Property Creater
+                  </Link>
+                  <Link
+                    href="/initiatives/technology-skills-creater"
+                    className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Technology Skills Creater
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link
-              href="#"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+              href="/together-from-2027"
+              className={`block px-4 py-2 ${
+                pathname === "/together-from-2027"
+                  ? "text-[#03CF65]"
+                  : "text-gray-700 hover:bg-gray-100"
+              }`}
             >
-              Initiatives
-            </Link>
-            <Link
-              href="#"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-            >
-              Chapters
+              Together from 2027
             </Link>
             <Link
               href="/GetInvolved"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+              className={`block px-4 py-2 ${
+                pathname === "/GetInvolved"
+                  ? "text-[#03CF65]"
+                  : "text-gray-700 hover:bg-gray-100"
+              }`}
             >
               Get Involved
             </Link>
