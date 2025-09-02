@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../../components/common/HeroSection";
+import HeroSection from "../../../components/common/HeroSection";
 import MissionVision from "./components/MissionVision";
 import DigitalTransformation from "@/components/common/DigitalTransformation";
 import Empowering from "./components/Empowering";
