@@ -48,7 +48,7 @@ const AdvisoryBoardSection = () => {
   );
 
   return (
-    <section className="bg-gray-100 py-16 px-4">
+    <section className= "py-16 px-4">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         {/* Honorable Advisory Board */}
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-12">
