@@ -38,7 +38,7 @@ const Section: React.FC<SectionProps> = ({
         <p className="text-gray-600 font-semibold text-base mb-8">
           Powered by Digital MH 2027
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 space-x-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <Link
             href={button1Link}
             className="bg-[#03CF65] text-white px-6 py-3 rounded-md shadow-md hover:bg-green-600 transition duration-300 flex items-center space-x-2"
