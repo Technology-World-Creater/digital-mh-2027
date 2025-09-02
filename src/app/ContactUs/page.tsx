@@ -1,4 +1,5 @@
 import ContactUsHero from "./components/ContactUsHero";
+import ContactForm from "./components/ContactForm";
 
 const ContactUs = () => {
   return (
@@ -7,6 +8,7 @@ const ContactUs = () => {
         title="Contact Us"
         bgImage="/contactbg.jpg"
       />
+      <ContactForm />
     </>
   );
 };
