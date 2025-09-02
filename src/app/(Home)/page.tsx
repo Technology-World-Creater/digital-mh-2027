@@ -17,6 +17,7 @@ export default function Home() {
       <HomeMegaProjects />
       <HomeGovernmentAndLeadership />
       <HomeOpportunitiesToApply />
+
       <HomePartners />
     </main>
   );
