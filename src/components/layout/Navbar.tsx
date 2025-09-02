@@ -64,7 +64,7 @@ const Navbar = () => {
               Together from 2027
             </Link>
             <Link
-              href="#"
+              href="/GetInvolved"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
             >
               Get Involved
@@ -126,7 +126,7 @@ const Navbar = () => {
               Chapters
             </Link>
             <Link
-              href="#"
+              href="/GetInvolved"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Get Involved
