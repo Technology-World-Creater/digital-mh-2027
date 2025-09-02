@@ -46,7 +46,7 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="hidden lg:flex space-x-8">
             <Link
-              href="#"
+              href="/"
               className="text-gray-700 hover:text-[#03CF65] font-medium"
             >
               Home
@@ -72,10 +72,13 @@ const Navbar = () => {
           </div>
 
           {/* Contact Us Button */}
-          <button className="hidden lg:flex bg-[#03CF65] text-white px-6 py-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 items-center space-x-2">
+          <Link
+            href="/ContactUs"
+            className="hidden lg:flex bg-[#03CF65] text-white px-6 py-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 items-center space-x-2"
+          >
             <span>Contact Us</span>
             <i className="fas fa-arrow-right"></i>
-          </button>
+          </Link>
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden">
@@ -105,10 +108,10 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white py-2">
             <Link
-              href="#"
+              href="/"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
-              Who We Are
+              Home
             </Link>
             <Link
               href="#"
@@ -129,15 +132,11 @@ const Navbar = () => {
               Get Involved
             </Link>
             <Link
-              href="#"
+              href="/ContactUs"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
-              Resources
+              Contact Us
             </Link>
-            <button className="w-full text-left bg-[#03CF65] text-white px-4 py-2 mt-2 rounded-md shadow-md hover:bg-green-600 transition duration-300 flex items-center justify-center space-x-2">
-              <span>Contact Us</span>
-              <i className="fas fa-arrow-right"></i>
-            </button>
           </div>
         )}
       </div>
