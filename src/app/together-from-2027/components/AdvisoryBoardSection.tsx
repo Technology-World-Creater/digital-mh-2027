@@ -1,21 +1,20 @@
 import React from "react";
 import Image from "next/image";
 
-const AdvisoryBoardSection = () => {
-  interface Member {
-    image: string;
-    name: string;
-    title: string;
-  }
+interface Member {
+  image: string;
+  name: string;
+  title: string;
+}
 
-  const advisoryBoardMembers: Member[] = [
+const advisoryBoardMembers: Member[] = [
     { image: "/dammy.png", name: "Member 1", title: "Title 1" },
     { image: "/dammy.png", name: "Member 2", title: "Title 2" },
     { image: "/dammy.png", name: "Member 3", title: "Title 3" },
     { image: "/dammy.png", name: "Member 4", title: "Title 4" },
   ];
 
-  const supporters: Member[] = [
+const supporters: Member[] = [
     { image: "/dammy.png", name: "Supporter 1", title: "Supporter Title" },
     { image: "/dammy.png", name: "Supporter 2", title: "Supporter Title" },
     { image: "/dammy.png", name: "Supporter 3", title: "Supporter Title" },
@@ -27,7 +26,7 @@ const AdvisoryBoardSection = () => {
     { image: "/dammy.png", name: "Supporter 9", title: "Supporter Title" },
   ];
 
-  const renderMembers = (members: Member[]) => (
+const renderMembers = (members: Member[]) => (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center items-center">
       {members.map((member, index) => (
         <div
@@ -47,8 +46,9 @@ const AdvisoryBoardSection = () => {
     </div>
   );
 
+const AdvisoryBoardSection = () => {
   return (
-    <section className= "py-16 px-4">
+    <section className="py-16 px-4">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         {/* Honorable Advisory Board */}
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-12">

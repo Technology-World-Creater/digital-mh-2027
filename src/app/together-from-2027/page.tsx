@@ -2,6 +2,7 @@ import React from "react";
 
 import TogetherHeroSection from "./components/TogetherHeroSection";
 import CollaborationSection from "./components/CollaborationSection";
+import TeamSection from "./components/TeamSection";
 import AdvisoryBoardSection from "./components/AdvisoryBoardSection";
 
 const Page = () => {
@@ -10,6 +11,7 @@ const Page = () => {
       <TogetherHeroSection />
       <CollaborationSection />
       <AdvisoryBoardSection />
+      <TeamSection />
     </div>
   );
 };
