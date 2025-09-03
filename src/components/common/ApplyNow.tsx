@@ -9,7 +9,7 @@ const ApplyNow = ({ title }: { title: string }) => {
             Join the movement to transform {title}-Tech Sector. Be part of
             Digital Maharashtra 2027.
           </h2>
-          <button className="flex absolute lg:-right-20 right-20 bottom-2 lg:bottom-2/5 text-lg leading-relaxed bg-green-500 hover:bg-green-600 text-white font-light py-3 px-8 rounded-lg items-center space-x-2">
+          <button className="flex items-center justify-center gap-3 px-4 sm:px-6 py-3 text-white text-base sm:text-lg lg:text-xl font-medium font-['Inter'] bg-[#03CF65] rounded-lg sm:static sm:ml-auto lg:absolute lg:-right-24 lg:top-1/2 lg:-translate-y-1/2 cursor-pointer">
             <span>APPLY NOW</span>
             <svg
               xmlns="http://www.w3.org/6000/svg"
