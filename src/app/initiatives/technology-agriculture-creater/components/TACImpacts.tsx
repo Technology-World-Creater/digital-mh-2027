@@ -13,7 +13,7 @@ const TACImpacts = () => {
             width={200}
             height={2}
             alt="OurMeasurableGoalsLine"
-            className="absolute right-100 top-12"
+            className="absolute right-160 top-12"
           />
         </div>
 
@@ -29,7 +29,7 @@ const TACImpacts = () => {
                 Lakhs
               </span>
             </div>
-            <div className="text-gray-800/70 text-lg sm:text-xl font-medium  text-center md:text-left">
+            <div className="text-gray-800/70 text-lg sm:text-xl font-medium  text-center md:text-left mt-4">
               Farmers Digitally Connected
             </div>
           </div>
@@ -41,7 +41,7 @@ const TACImpacts = () => {
                 X
               </span>
             </div>
-            <div className="text-gray-800/70 text-lg sm:text-xl font-medium mx-auto text-center md:text-left">
+            <div className="text-gray-800/70 text-lg sm:text-xl font-medium mx-auto text-center md:text-left mt-4">
               Agri-Trade Volume
             </div>
           </div>
@@ -53,7 +53,7 @@ const TACImpacts = () => {
                 %
               </span>
             </div>
-            <div className="text-gray-800/70 text-lg sm:text-xl font-medium text-center md:text-left">
+            <div className="text-gray-800/70 text-lg sm:text-xl font-medium text-center md:text-left mt-4">
               Rural Districts Covered
             </div>
           </div>
