@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import Image from "next/image";
+import Link from "next/link";
 
 const GrowthFundingOpportunities = () => {
   return (
@@ -18,10 +19,14 @@ const GrowthFundingOpportunities = () => {
           Discover growth and funding {""}
           <span className="text-[#04984c] font-bold">opportunities</span>
         </h2>
-        <button className="border border-[#03CF65] text-[#03CF65] px-8 py-3 rounded-xl hover:bg-[#03CF65] hover:text-white transition duration-300 flex items-center justify-center mx-auto space-x-2">
+        <Link
+          href="https://forms.gle/d4XzUwYmES4hitjU7"
+          target="_blank"
+          className="border border-[#03CF65] text-[#03CF65] px-8 py-3 rounded-xl hover:bg-[#03CF65] hover:text-white transition duration-300 flex items-center justify-center mx-auto space-x-2"
+        >
           <span>REGISTER NOW</span>
           <i className="fas fa-arrow-right"></i>
-        </button>
+        </Link>
       </div>
     </div>
   );

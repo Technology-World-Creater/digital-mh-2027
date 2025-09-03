@@ -25,14 +25,16 @@ const HomeHero = () => {
         <div className="w-full flex items-center justify-center">
           <div className="flex flex-col w-fit md:w-full md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
             <Link
-              href="#"
+              href="https://forms.gle/d4XzUwYmES4hitjU7"
+              target="_blank"
               className="bg-[#03CF65] text-white px-6 py-3 rounded-lg flex items-center space-x-2 hover:bg-[#04984c] transition duration-300"
             >
               <span>Register Now</span>
               <i className="fas fa-arrow-right"></i>
             </Link>
             <Link
-              href="#"
+              href="https://forms.gle/KzBEwPnsgqhvGqef7"
+              target="_blank"
               className="border border-black text-black px-6 py-3 rounded-lg flex items-center space-x-2 hover:bg-white/90 hover:text-black transition duration-300"
             >
               <span>Join the Mission</span>

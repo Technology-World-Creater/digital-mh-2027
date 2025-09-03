@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const HomeOpportunitiesToApply = () => {
   return (
@@ -24,14 +25,22 @@ const HomeOpportunitiesToApply = () => {
         Powered by Digital MH 2027
       </p>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
-        <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg flex items-center justify-center space-x-2 transition duration-300 ease-in-out transform hover:scale-105">
+        <Link
+          href="https://forms.gle/Wrjbr96UkjzPkzi39"
+          target="_blank"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg flex items-center justify-center space-x-2 transition duration-300 ease-in-out transform hover:scale-105"
+        >
           <span>For Startups</span>
           <span className="text-xl">→</span>
-        </button>
-        <button className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg shadow-lg border border-gray-300 flex items-center justify-center space-x-2 transition duration-300 ease-in-out transform hover:scale-105">
-          <span>For Innovators</span>
+        </Link>
+        <Link
+          href="https://forms.gle/KzBEwPnsgqhvGqef7"
+          target="_blank"
+          className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg shadow-lg border border-gray-300 flex items-center justify-center space-x-2 transition duration-300 ease-in-out transform hover:scale-105"
+        >
+          <span>Join the Mission</span>
           <span className="text-xl">→</span>
-        </button>
+        </Link>
       </div>
     </div>
   );

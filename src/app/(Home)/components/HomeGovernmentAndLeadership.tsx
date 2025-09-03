@@ -55,21 +55,21 @@ const ministries = [
 
 const leadership = [
   {
-    image: "/team.png",
+    image: "/dammy.png",
     name: "To Be Announced",
     linkedin: "#",
     title: "To Be Announced",
     description: "--",
   },
   {
-    image: "/team.png",
+    image: "/dammy.png",
     name: "To Be Announced",
     linkedin: "#",
     title: "To Be Announced",
     description: "--",
   },
   {
-    image: "/team.png",
+    image: "/dammy.png",
     name: "To Be Announced",
     linkedin: "#",
     title: "To Be Announced",
@@ -133,7 +133,10 @@ const HomeGovernmentAndLeadership = () => {
             Leadership & Stakeholder Support - To Be Announced
           </h2>
           <div className="flex justify-center md:justify-end w-full md:w-auto">
-            <button className="bg-[#03CF65] text-white px-6 py-3 rounded-lg flex items-center space-x-2 hover:bg-green-700 transition duration-300">
+            <Link
+              href="/together-from-2027"
+              className="bg-[#03CF65] text-white px-6 py-3 rounded-lg flex items-center space-x-2 hover:bg-green-700 transition duration-300"
+            >
               <span>Explore More</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +150,7 @@ const HomeGovernmentAndLeadership = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
 

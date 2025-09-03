@@ -102,7 +102,8 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/career"
+                    href="https://forms.gle/QPqBic5FUVUxP9fN9"
+                    target="_blank"
                     className="text-gray-600 hover:text-[#03CF65]"
                   >
                     Career

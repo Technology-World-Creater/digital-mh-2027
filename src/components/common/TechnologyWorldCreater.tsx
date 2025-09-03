@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const TechnologyWorldCreater = () => {
   return (
@@ -28,7 +29,11 @@ const TechnologyWorldCreater = () => {
             property, services to education — we build impact-first tech
             solutions that uplift industries and empower communities.
           </p>
-          <button className="bg-gradient-to-r from-purple-400 to-blue-500 text-white font-bold py-3 px-16 rounded-full shadow-lg hover:shadow-xl transition duration-300 w-full flex items-center justify-center">
+          <Link
+            href="https://technologyworldcreater.com/about"
+            target="_blank"
+            className="bg-gradient-to-r from-purple-400 to-blue-500 text-white font-bold py-3 px-16 rounded-full shadow-lg hover:shadow-xl transition duration-300 w-full flex items-center justify-center"
+          >
             Explore More
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +49,7 @@ const TechnologyWorldCreater = () => {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </button>
+          </Link>
         </div>
         <div className="md:w-1/2 flex justify-center items-center bg-zinc-800 py-20 rounded-xl">
           <Image
