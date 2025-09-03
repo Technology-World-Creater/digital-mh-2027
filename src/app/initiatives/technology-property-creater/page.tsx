@@ -19,7 +19,7 @@ const TechnologyPropertyCreater = () => {
       <DigitalTransformation
         title="Empowering Smart Property & Infrastructure Across"
         desc="Technology Property Creator (TPC) is driving the future of real estate and infrastructure by integrating advanced technology, sustainability, and smart solutions. By delivering innovative property models, digital construction tools, and sustainable housing initiatives, TPC ensures that Maharashtra becomes a hub for smart cities and future-ready infrastructure by 2027."
-        line="/ALine.png"
+        line="/pL.png"
         img1="/p.1.jpg"
         img1title="Smart Housing & Urban Development"
         img1desc="Building sustainable, tech-enabled housing solutions for urban and rural communities, ensuring affordability and inclusivity."

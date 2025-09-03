@@ -56,7 +56,7 @@ const DigitalTransformation = ({
               alt="Line"
               width={380}
               height={500}
-              className=" w-60 h-4 mt-2 -z-10 absolute left-49 top-5"
+              className=" w-60 h-6 mt-2 -z-10 absolute left-49 top-5"
             />
           </span>
           <br /> Maharashtra
