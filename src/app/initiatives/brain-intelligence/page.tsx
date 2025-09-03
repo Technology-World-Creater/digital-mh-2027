@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "@/components/common/HeroSection";
 import TSCContribution from "@/components/common/TSCContribution";
+import ApplyNow from "@/components/common/ApplyNow";
 
 const BrainIntelligence = () => {
   const sectionsData = [
@@ -55,6 +56,7 @@ const BrainIntelligence = () => {
         logoImageAlt="Brain Intelligence Logo"
         logoTitle="Empowering Brains, Beyond Limits!"
       />
+      <ApplyNow title="Brain" />
     </>
   );
 };
