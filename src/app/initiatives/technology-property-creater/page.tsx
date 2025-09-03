@@ -2,6 +2,7 @@ import HeroSection from "@/components/common/HeroSection";
 import ApplyNow from "@/components/common/ApplyNow";
 import DigitalMaharashtraContribution from "./components/DigitalMaharashtraContribution";
 import DigitalTransformation from "@/components/common/DigitalTransformation";
+import PropertyInnovationSection from "./components/PropertyInnovationSection";
 
 const TechnologyPropertyCreater = () => {
   return (
@@ -39,6 +40,21 @@ const TechnologyPropertyCreater = () => {
         img6desc="Integrating with TAC for agri-infrastructure, TSC for digital skills, and TEC for education campuses, making property innovation part of the larger TWC ecosystem."
       />
       <ApplyNow title={"Property"} />
+      <PropertyInnovationSection
+        img={"/E1.jpg"}
+        classs="md:flex-row"
+        className="lg:left-112"
+      />
+      <PropertyInnovationSection
+        img={"/E2.jpg"}
+        classs="md:flex-row-reverse"
+        className="lg:right-112"
+      />
+      <PropertyInnovationSection
+        img={"/E3.jpg"}
+        classs="md:flex-row"
+        className="lg:left-112"
+      />
     </div>
   );
 };
