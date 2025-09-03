@@ -21,8 +21,8 @@ const page = () => {
         description="TAC (Technology Agriculture Creater) is an AgriTech initiative under Technology World Creater (TWC), designed to digitize and modernize the agriculture ecosystem. It integrates technology, AI solutions, digital marketplaces, and financial services to empower farmers, buyers, and agri-businesses."
       />
 
-      <div className="flex flex-col max-w-7xl mx-auto ">
-        <div className="flex flex-col px-6 py-8 md:py-12 text-left">
+      <div className="flex flex-col w-full">
+        <div className="flex flex-col max-w-7xl mx-auto  px-6 py-8 md:py-12 text-left">
           <div className="flex flex-wrap text-gray-800 text-4xl font-bold mb-4 gap-2 pb-4">
             Why TAC Matters for{" "}
             <span className="text-green-500 z-50 relative">
@@ -50,17 +50,17 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex  py-4">
+        <div className="max-w-7xl mx-auto py-4">
           <TACFeatures1 />
         </div>
 
-        <div className="flex  py-4">
+        <div className="max-w-7xl mx-auto py-4">
           <TACFeatures2 />
         </div>
-        <div className="flex py-4">
+        <div className="py-4">
           <TACImpacts />
         </div>
-        <div className="flex  py-4">
+        <div className="py-4">
           <TACAppDetails />
         </div>
         <div className="flex mx-auto py-2">
