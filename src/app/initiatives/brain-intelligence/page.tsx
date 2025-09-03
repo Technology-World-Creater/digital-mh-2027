@@ -4,6 +4,7 @@ import TSCContribution from "@/components/common/TSCContribution";
 import BrainIntelligenceImpact from "./components/BrainIntelligenceImpact";
 import BrainIntelligenceDetails from "./components/BrainIntelligenceDetails";
 import ApplyNow from "@/components/common/ApplyNow";
+import BrainIntelligenceFeatures from "./components/BrainIntelligenceFeatures";
 
 const BrainIntelligence = () => {
   const sectionsData = [
@@ -60,6 +61,7 @@ const BrainIntelligence = () => {
         logoTitle="Empowering Brains, Beyond Limits!"
       />
       <BrainIntelligenceImpact />
+      <BrainIntelligenceFeatures />
       <ApplyNow title="Brain" />
       <BrainIntelligenceDetails />
     </>
