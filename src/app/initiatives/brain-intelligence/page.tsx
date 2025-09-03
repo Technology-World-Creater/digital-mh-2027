@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "@/components/common/HeroSection";
 import TSCContribution from "@/components/common/TSCContribution";
+import BrainIntelligenceImpact from "./components/BrainIntelligenceImpact";
 import BrainIntelligenceDetails from "./components/BrainIntelligenceDetails";
 import ApplyNow from "@/components/common/ApplyNow";
 
@@ -46,6 +47,7 @@ const BrainIntelligence = () => {
         logoImage="/BI.png"
         description="Brain Intelligence (BI) is an advanced research and innovation initiative by TWC, designed to explore the frontiers of neuroscience, AI, and brain-inspired computing. BI focuses on creating next-generation brain training systems, cognitive development platforms, and AI models inspired by human intelligence."
       />
+
       <TSCContribution
         title="BI Contributes to"
         description="Digital Maharashtra 2027 ?"
@@ -57,6 +59,7 @@ const BrainIntelligence = () => {
         logoImageAlt="Brain Intelligence Logo"
         logoTitle="Empowering Brains, Beyond Limits!"
       />
+      <BrainIntelligenceImpact />
       <ApplyNow title="Brain" />
       <BrainIntelligenceDetails />
     </>
