@@ -28,7 +28,7 @@ const TechnologyWorldCreater = () => {
             property, services to education — we build impact-first tech
             solutions that uplift industries and empower communities.
           </p>
-          <button className="bg-gradient-to-r from-purple-400 to-blue-500 text-white font-bold py-3 px-16 rounded-full shadow-lg hover:shadow-xl transition duration-300 flex items-center">
+          <button className="bg-gradient-to-r from-purple-400 to-blue-500 text-white font-bold py-3 px-16 rounded-full shadow-lg hover:shadow-xl transition duration-300 w-full flex items-center justify-center">
             Explore More
             <svg
               xmlns="http://www.w3.org/2000/svg"
