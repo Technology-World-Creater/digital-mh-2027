@@ -11,7 +11,7 @@ const Footer = () => {
         <TechnologyWorldCreater />
         <GrowthFundingOpportunities />
         {/* Main Footer Content */}
-        <div className="flex flex-col md:flex-row gap-5 md:gap-24 max-w-7xl mx-auto px-4">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-12 lg:gap-24 max-w-7xl mx-auto px-4">
           {/* Left Section: Copyright and Logo */}
           <div className="w-full md:w-auto text-center md:text-left">
             <p className="text-gray-600 text-sm text-left mb-4">
@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex md:flex-row gap-24 flex-wrap w-full md:w-auto">
+          <div className="flex md:flex-row gap-12 lg:gap-24 flex-wrap w-full md:w-auto">
             {/* Support Links */}
             <div>
               <h3 className="font-bold text-gray-800 mb-3">Support</h3>
