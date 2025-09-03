@@ -30,7 +30,7 @@ const features = [
 
 const BrainIntelligenceFeatures: React.FC = () => {
   return (
-    <section className="relative w-full max-w-7xl mx-auto py-16 overflow-hidden -mt-32">
+    <section className="relative w-full max-w-7xl mx-auto pt-16 overflow-hidden -mt-32">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {features.map((feature, index) => (
           <div
