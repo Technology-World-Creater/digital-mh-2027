@@ -58,17 +58,18 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <div className="relative group">
+            <div className="relative">
               <button
                 className={`font-medium ${
                   pathname.startsWith("/initiatives")
                     ? "text-[#03CF65]"
                     : "text-gray-700 hover:text-[#03CF65]"
                 } focus:outline-none flex items-center`}
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 Our Initiatives
                 <svg
-                  className={`ml-1 h-4 w-4 transform group-hover:rotate-180 rotate-0 transition-transform duration-200`}
+                  className={`ml-1 h-4 w-4 transform ${isMobileMenuOpen ? "rotate-180" : "rotate-0"} transition-transform duration-200`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -83,7 +84,7 @@ const Navbar = () => {
                 </svg>
               </button>
 
-              <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 z-50 hidden group-hover:block">
+              <div className={`absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 z-50 ${isMobileMenuOpen ? "block" : "hidden"}`} onMouseLeave={() => setIsMobileMenuOpen(false)}>
                 <ul>
                   <li>
                     <Link
@@ -97,6 +98,7 @@ const Navbar = () => {
                     <Link
                       href="/initiatives/technology-agriculture-creater"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Technology Agriculture Creater
                     </Link>
@@ -105,6 +107,7 @@ const Navbar = () => {
                     <Link
                       href="/initiatives/technology-service-creater"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Technology Service Creater
                     </Link>
@@ -113,6 +116,7 @@ const Navbar = () => {
                     <Link
                       href="/initiatives/brain-intelligence"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Brain Intelligence
                     </Link>
@@ -121,6 +125,7 @@ const Navbar = () => {
                     <Link
                       href="/initiatives/technology-property-creater"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Technology Property Creater
                     </Link>
@@ -129,6 +134,7 @@ const Navbar = () => {
                     <Link
                       href="/initiatives/technology-skill-creater"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Technology Skill Creater
                     </Link>
@@ -137,6 +143,7 @@ const Navbar = () => {
                     <Link
                       href="/initiatives/the-concept-of-analysement"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       The Concept of Analysement
                     </Link>
@@ -244,36 +251,42 @@ const Navbar = () => {
                   <Link
                     href="/initiatives/technology-education-creater"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Technology Education Creater
                   </Link>
                   <Link
                     href="/initiatives/technology-agriculture-creater"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Technology Agriculture Creater
                   </Link>
                   <Link
                     href="/initiatives/technology-service-creater"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Technology Service Creater
                   </Link>
                   <Link
                     href="/initiatives/brain-intelligence"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Brain Intelligence
                   </Link>
                   <Link
                     href="/initiatives/technology-property-creater"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Technology Property Creater
                   </Link>
                   <Link
                     href="/initiatives/technology-skill-creater"
                     className="block px-8 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Technology Skill Creater
                   </Link>
@@ -287,22 +300,25 @@ const Navbar = () => {
                   ? "text-[#03CF65]"
                   : "text-gray-700 hover:bg-gray-100"
               }`}
+              onClick={() => setIsMobileMenuOpen(false)}
             >
               Together from 2027
             </Link>
             <Link
-              href="/GetInvolved"
+              href="/get-involved"
               className={`block px-4 py-2 ${
-                pathname === "/GetInvolved"
+                pathname === "/get-involved"
                   ? "text-[#03CF65]"
                   : "text-gray-700 hover:bg-gray-100"
               }`}
+              onClick={() => setIsMobileMenuOpen(false)}
             >
               Get Involved
             </Link>
             <Link
-              href="/ContactUs"
+              href="/contact-us"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact Us
             </Link>
