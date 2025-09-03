@@ -1,8 +1,8 @@
 import { CheckCircle } from "lucide-react";
 
-const DigitalMaharashtraContribution = () => {
+const DigitalMaharashtraContributionSkill = () => {
   return (
-    <div className="bg-white py-28">
+    <div className="bg-white py-10">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h2 className="text-4xl font-bold text-gray-800 leading-tight">
@@ -18,26 +18,25 @@ const DigitalMaharashtraContribution = () => {
             <li className="flex items-start">
               <CheckCircle className="text-[#03CF65] mr-3 mt-1" size={20} />
               <span className="text-gray-700 text-lg">
-                Digitizing Maharashtra&apos;s Real Estate &amp; Property
-                Ecosystem
+                Empowering Startups & MSMEs with skilled talent.
               </span>
             </li>
             <li className="flex items-start">
               <CheckCircle className="text-[#03CF65] mr-3 mt-1" size={20} />
               <span className="text-gray-700 text-lg">
-                Promoting Smart Cities & Infrastructure Development
+                Bridging the Digital Skill Gap across urban & rural sectors.
               </span>
             </li>
             <li className="flex items-start">
               <CheckCircle className="text-[#03CF65] mr-3 mt-1" size={20} />
               <span className="text-gray-700 text-lg">
-                Bridging the Technology Gap in Property Management
+                Empowering Startups & MSMEs with skilled talent.
               </span>
             </li>
             <li className="flex items-start">
               <CheckCircle className="text-[#03CF65] mr-3 mt-1" size={20} />
               <span className="text-gray-700 text-lg">
-                Transparency & Economic Growth in Property Sector
+                Driving Employment & Entrepreneurship
               </span>
             </li>
           </ul>
@@ -47,4 +46,4 @@ const DigitalMaharashtraContribution = () => {
   );
 };
 
-export default DigitalMaharashtraContribution;
+export default DigitalMaharashtraContributionSkill;

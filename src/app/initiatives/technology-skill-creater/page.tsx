@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "@/components/common/HeroSection";
 import DigitalTransformation from "@/components/common/DigitalTransformation";
 import OurVision from "@/components/common/OurVision";
+import DigitalMaharashtraContributionSkill from "./components/DigitalMaharashtraContributionSkill";
 import TSCContribution from "@/components/common/TSCContribution";
 import ApplyNow from "@/components/common/ApplyNow";
 
@@ -31,6 +32,7 @@ const page = () => {
           "To collaborate with leading tech giants and institutions to build the worlds most advanced skill development."
         }
       />
+      <DigitalMaharashtraContributionSkill />
       <DigitalTransformation
         title={"Empowering Digital Skills Across"}
         desc={
