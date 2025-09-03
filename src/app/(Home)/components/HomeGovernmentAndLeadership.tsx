@@ -163,7 +163,7 @@ const HomeGovernmentAndLeadership = () => {
                   alt={person.name}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 20vw"
-                  className="rounded-lg"
+                  className="rounded-lg object-cover"
                 />
               </div>
               <h3 className="text-sm border-b-[1px] px-2 py-1 border-gray-500 border-solid font-semibold flex items-center gap-2 w-full justify-between text-gray-500 ">
