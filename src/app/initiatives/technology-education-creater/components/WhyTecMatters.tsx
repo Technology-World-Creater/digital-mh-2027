@@ -11,13 +11,6 @@ const WhyTecMatters = () => {
           <span className="text-green-500 z-50">
             Digital Maharashtra 2027 ?
           </span>
-          <Image
-            src={"/vector1.png"}
-            alt="Line"
-            width={240}
-            height={500}
-            className={`-z-0 hidden lg:block absolute top-7 right-[13em]`}
-          />
         </h2>
         <p className="text-xl leading-relaxed mb-1 text-[#5C6C68]">
           Education is the engine of a digital economy, and Technology Education

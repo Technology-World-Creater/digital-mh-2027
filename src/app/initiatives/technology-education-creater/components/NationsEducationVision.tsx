@@ -22,13 +22,6 @@ const NationsEducationVision = () => {
           <span className="text-[#22C55E] z-50">
             One Global Education Vision
           </span>
-          <Image
-            src={"/vector1.png"}
-            alt="Line"
-            width={200}
-            height={500}
-            className={`-z-0 hidden lg:block absolute top-7 right-[16.5em]`}
-          />
         </h2>
         <p className="text-lg text-[#5C6C68] mb-12 text-center md:text-left">
           Building the world&apos;s most advanced education system together.
