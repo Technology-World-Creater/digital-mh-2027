@@ -13,11 +13,10 @@ const WhyTecMatters = () => {
           </span>
           <Image
             src={"/vector1.png"}
-            width={0}
-            height={0}
-            sizes="100vw"
-            alt=""
-            className="hidden lg:block absolute right-[13em] top-7 z-10 w-auto h-auto"
+            alt="Line"
+            width={240}
+            height={500}
+            className={`-z-0 hidden lg:block absolute top-7 right-[13em]`}
           />
         </h2>
         <p className="text-xl leading-relaxed mb-1 text-[#5C6C68]">

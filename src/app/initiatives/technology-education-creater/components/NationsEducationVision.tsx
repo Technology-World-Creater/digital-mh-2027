@@ -24,11 +24,10 @@ const NationsEducationVision = () => {
           </span>
           <Image
             src={"/vector1.png"}
-            width={0}
-            height={0}
-            sizes="100vw"
-            alt=""
-            className="hidden lg:block absolute right-[16em] top-7 z-10 w-auto h-auto"
+            alt="Line"
+            width={200}
+            height={500}
+            className={`-z-0 hidden lg:block absolute top-7 right-[16.5em]`}
           />
         </h2>
         <p className="text-lg text-[#5C6C68] mb-12 text-center md:text-left">
