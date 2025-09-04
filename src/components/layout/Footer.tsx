@@ -70,7 +70,8 @@ const Footer = () => {
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link
-                    href="/who-we-are"
+                    href="https://technologyworldcreater.com/about/"
+                    target="_blank"
                     className="text-gray-600 hover:text-[#03CF65]"
                   >
                     Who we are
