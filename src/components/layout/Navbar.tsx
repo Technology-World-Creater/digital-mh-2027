@@ -17,19 +17,32 @@ const Navbar = () => {
     <nav className="bg-white shadow-md sticky top-0 z-999">
       {/* Top bar */}
       <div className="bg-[#03CF65] py-2 px-4 text-white flex justify-end items-center space-x-5 md:space-x-10">
-        <Link href="#" className="hover:text-gray-200">
+        <Link
+          href="https://www.instagram.com/technology_world_creater/"
+          target="_blank"
+          className="hover:text-gray-200"
+        >
           <i className="fab fa-instagram"></i>
         </Link>
-        <Link href="#" className="hover:text-gray-200">
+        <Link
+          href="https://www.linkedin.com/in/sahil-vaidya-7b2565228/"
+          target="_blank"
+          className="hover:text-gray-200"
+        >
           <i className="fab fa-linkedin-in"></i>
         </Link>
-        <Link href="#" className="hover:text-gray-200">
+        <Link
+          href="https://www.youtube.com/@technologyworldcreater"
+          target="_blank"
+          className="hover:text-gray-200"
+        >
           <i className="fab fa-youtube"></i>
         </Link>
-        <Link href="#" className="hover:text-gray-200">
-          <i className="fab fa-facebook-f"></i>
-        </Link>
-        <Link href="#" className="hover:text-gray-200">
+        <Link
+          href="https://x.com/twcindia01"
+          target="_blank"
+          className="hover:text-gray-200"
+        >
           <i className="fab fa-twitter"></i>
         </Link>
       </div>
@@ -69,7 +82,9 @@ const Navbar = () => {
               >
                 Our Initiatives
                 <svg
-                  className={`ml-1 h-4 w-4 transform ${isMobileMenuOpen ? "rotate-180" : "rotate-0"} transition-transform duration-200`}
+                  className={`ml-1 h-4 w-4 transform ${
+                    isMobileMenuOpen ? "rotate-180" : "rotate-0"
+                  } transition-transform duration-200`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -84,7 +99,12 @@ const Navbar = () => {
                 </svg>
               </button>
 
-              <div className={`absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 z-50 ${isMobileMenuOpen ? "block" : "hidden"}`} onMouseLeave={() => setIsMobileMenuOpen(false)}>
+              <div
+                className={`absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 z-50 ${
+                  isMobileMenuOpen ? "block" : "hidden"
+                }`}
+                onMouseLeave={() => setIsMobileMenuOpen(false)}
+              >
                 <ul>
                   <li>
                     <Link
