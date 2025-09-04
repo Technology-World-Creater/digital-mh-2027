@@ -37,28 +37,28 @@ const Footer = () => {
             </div>
             <div className="flex justify-center md:justify-start space-x-10 mx-auto md:mx-0">
               <Link
-                href="#"
+                href="https://www.instagram.com/technology_world_creater/"
                 className="text-2xl text-gray-600 hover:text-[#03CF65]"
               >
                 <i className="fab fa-instagram"></i>
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/sahil-vaidya-7b2565228/"
                 className="text-2xl text-gray-600 hover:text-[#03CF65]"
               >
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-linkedin-in"></i>
               </Link>
               <Link
-                href="#"
+                href="https://www.youtube.com/@technologyworldcreater"
                 className="text-2xl text-gray-600 hover:text-[#03CF65]"
               >
                 <i className="fab fa-youtube"></i>
               </Link>
               <Link
-                href="#"
+                href="https://x.com/twcindia01"
                 className="text-2xl text-gray-600 hover:text-[#03CF65]"
               >
-                <i className="fab fa-linkedin-in"></i>
+                <i className="fab fa-twitter"></i>
               </Link>
             </div>
           </div>
