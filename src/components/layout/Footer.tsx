@@ -25,7 +25,7 @@ const Footer = () => {
               </span>{" "}
               in India
             </p>
-            <div className="flex items-center mb-4">
+            <Link href="/" className="flex items-center mb-4">
               <Image
                 src="/logo.png"
                 alt="Digital Maharashtra 2027 Logo"
@@ -34,7 +34,7 @@ const Footer = () => {
                 sizes="100vw"
                 className="w-80 h-auto"
               />
-            </div>
+            </Link>
             <div className="flex justify-center md:justify-start space-x-10 mx-auto md:mx-0">
               <Link
                 href="https://www.instagram.com/technology_world_creater/"

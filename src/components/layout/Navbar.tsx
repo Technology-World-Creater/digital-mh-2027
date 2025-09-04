@@ -51,12 +51,14 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <Image
-              src="/logo.png"
-              alt="Digital Maharashtra 2027 Logo"
-              width={200}
-              height={30}
-            />
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Digital Maharashtra 2027 Logo"
+                width={200}
+                height={30}
+              />
+            </Link>
           </div>
 
           {/* Navigation Links */}
