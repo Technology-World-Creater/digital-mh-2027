@@ -69,9 +69,9 @@ const GetInvolvedSections: React.FC = () => {
         title="Join as a Startup"
         description="Showcase your solutions, scale faster, and become part of Maharashtra's innovation ecosystem."
         button1Text="Apply as a Startup"
-        button1Link="#"
+        button1Link="https://forms.gle/EhU6M2ncs3Px73Hn7"
         button2Text="Contact us"
-        button2Link="/ContactUs"
+        button2Link="/contact-us"
       />
       <Section
         bgColor="bg-[#F1EDF3]"
@@ -80,9 +80,9 @@ const GetInvolvedSections: React.FC = () => {
         title="Join as an Investor"
         description="Support high-impact startups, mentor founders, and be part of shaping India's next tech hub."
         button1Text="Connect as Investor"
-        button1Link="#"
+        button1Link="https://forms.gle/3b2jh1vqYVKTKJwz6"
         button2Text="Contact Us"
-        button2Link="/ContactUs"
+        button2Link="/contact-us"
       />
       <Section
         bgColor="bg-[#FDF5E5]"
@@ -91,9 +91,9 @@ const GetInvolvedSections: React.FC = () => {
         title="Join as a Student"
         description="Access training, mentorship, and real-world projects to turn your ideas into impact."
         button1Text="For Students"
-        button1Link="#"
+        button1Link="https://forms.gle/EXKziKUhXTiEvjhD9"
         button2Text="Contact Us"
-        button2Link="/ContactUs"
+        button2Link="/contact-us"
       />
       <Section
         bgColor="bg-[#F1EDF3]"
@@ -102,9 +102,9 @@ const GetInvolvedSections: React.FC = () => {
         title="Volunteer with Us"
         description="Contribute your time and skills to drive social and technological transformation across Maharashtra."
         button1Text="Become a Volunteer"
-        button1Link="#"
+        button1Link="https://forms.gle/EztaH3PLXCZHrNiU9"
         button2Text="Contact Us"
-        button2Link="/ContactUs"
+        button2Link="/contact-us"
       />
     </div>
   );

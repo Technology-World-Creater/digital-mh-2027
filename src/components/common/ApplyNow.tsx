@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const ApplyNow = ({ title }: { title: string }) => {
   return (
@@ -9,7 +10,11 @@ const ApplyNow = ({ title }: { title: string }) => {
             Join the movement to transform {title}-Tech Sector. Be part of
             Digital Maharashtra 2027.
           </h2>
-          <button className="flex items-center justify-center gap-3 px-4 sm:px-6 py-3 text-white text-base sm:text-lg lg:text-xl font-medium font-['Inter'] bg-[#03CF65] rounded-lg sm:static sm:ml-auto lg:absolute lg:-right-24 lg:top-1/2 lg:-translate-y-1/2 cursor-pointer">
+          <Link
+            href="https://forms.gle/9LwGYrUTkKoGAhQe9"
+            target="_blank"
+            className="flex items-center justify-center gap-3 px-4 sm:px-6 py-3 text-white text-base sm:text-lg lg:text-xl font-medium font-['Inter'] bg-[#03CF65] rounded-lg sm:static sm:ml-auto lg:absolute lg:-right-24 lg:top-1/2 lg:-translate-y-1/2 cursor-pointer"
+          >
             <span>APPLY NOW</span>
             <svg
               xmlns="http://www.w3.org/6000/svg"
@@ -23,7 +28,7 @@ const ApplyNow = ({ title }: { title: string }) => {
                 clipRule="evenodd"
               />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
