@@ -26,6 +26,13 @@ export default function RootLayout({
         <Navbar />
         <div>{children}</div>
         <Footer />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2M1S7W42Z"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-E2M1S7W42Z');
+        </script>
       </body>
     </html>
   );
