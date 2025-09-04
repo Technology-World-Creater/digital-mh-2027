@@ -17,7 +17,7 @@ const initiatives = [
     name: "Ed",
     description:
       "Transforming Maharashtra's learning ecosystem by blending global education standards with smart classrooms, digital skill programs, and AI-powered learning. Our goal is to make the state a leader in future-ready education.",
-    link: "/technology-education-creater",
+    link: "/initiatives/technology-education-creater",
   },
   {
     title: "Technology Agriculture Creater",
@@ -25,7 +25,7 @@ const initiatives = [
     name: "Agri",
     description:
       "Revolutionizing farming with digital marketplaces, AI advisory, and smart supply chain solutions, ensuring farmers of Maharashtra become digital entrepreneurs by 2027.",
-    link: "/technology-agriculture-creater",
+    link: "/initiatives/technology-agriculture-creater",
   },
   {
     title: "Technology Service Creater",
@@ -33,7 +33,7 @@ const initiatives = [
     name: "Service",
     description:
       "Bridging governance, citizens, and businesses with tech-driven services, ensuring Maharashtra becomes a model state for transparent, accessible, and efficient digital solutions.",
-    link: "/technology-service-creater",
+    link: "/initiatives/technology-service-creater",
   },
   {
     title: "Brain Intelligence",
@@ -41,7 +41,7 @@ const initiatives = [
     name: "Brain",
     description:
       "Brain Intelligence (BI) is the next step beyond AI — a DeepMind-inspired project for brain-level training, simulating human-like learning and decision-making for the future of innovation.",
-    link: "/brain-intelligence",
+    link: "/initiatives/brain-intelligence",
   },
   {
     title: "Technology Property Creater",
@@ -49,7 +49,7 @@ const initiatives = [
     name: "Property",
     description:
       "Shaping the future of Maharashtra's real estate through digital property platforms, smart housing, and sustainable urban development powered by technology.",
-    link: "/technology-property-creater",
+    link: "/initiatives/technology-property-creater",
   },
   {
     title: "Technology Skill Creater",
@@ -57,7 +57,7 @@ const initiatives = [
     name: "Skill",
     description:
       "Delivering digital-first training, entrepreneurship programs, and global skill development to build a future-ready workforce for Maharashtra's Digital 2027 vision.",
-    link: "/technology-skill-creater",
+    link: "/initiatives/technology-skill-creater",
   },
   {
     title: "The Concept of Analysement",
@@ -65,7 +65,7 @@ const initiatives = [
     name: "Concept",
     description:
       "The Concept have power to reconstruct human potential itself. In a world where humanity could cease to exist, Analysement carries the vision to redefine, remake, and reimagine what it truly means to be human.",
-    link: "/the-concept-of-analysement",
+    link: "/initiatives/the-concept-of-analysement",
   },
 ];
 
