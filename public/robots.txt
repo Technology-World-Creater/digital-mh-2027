@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalmh2027.technologyworldcreater.com/sitemap.xml
