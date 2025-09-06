@@ -12,8 +12,12 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Digital MH 2027",
-  description: "Digital MH 2027",
+  title: "Digital Maharashtra 2027",
+  description:
+    "The Digital Maharashtra 2027 Mission is a visionary movement by TWC Organization to transform India into a fully digital nation. We believe that Maharashtra...",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
